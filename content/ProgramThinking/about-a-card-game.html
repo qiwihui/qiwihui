@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src='js/visual-settinngs.js'></script>
+  <title>About a card game</title>
+</head>
+
+<body>
+  
+  <BODY TEXT="#000000" BGCOLOR=white LINK=blue VLINK=blue
+ALINK=blue topmargin="25" leftmargin="25">
+
+  <h1>About a card game</h1>
+  <p>Here I am going to implement a game process using python and C. I have no
+  idea about its name in English. I will call it as PDT, the same as the project
+  name.</p>
+  <p><b>Description</b></p>
+  <p>In the game, each player will hold half of all cards in disorder, and they
+  will cast one card by turn to compose a list card after card. If the list have two cards
+  with the same number, the player will gain the cards between them. The game
+  ends once one of the players has no cards.</p>
+  <p><b>Analysis</b></p>
+  <p>As we can see. the game contains two basic data structure: queue and
+  stack. The cards held by the players works like a queue. Cards that first in
+  will fisrt out. (As usual, we will insert the cards we gains to the buttom of 
+  the  cards.) So we onstruct bellow Queue type:</p>
+  <p><pre>
+  typedef struct Queue
+  {
+    int *content;  // all cards
+    int length; // the current size of the queue
+    int front;  // the index of the first card 
+    int rear;   // the index of the last card
+  } Queue;
+  </pre></p>
+  <p>We construct fve basic method for the queue:</p>
+  <p><ul>
+    <li>queue_init: create a Queue according to the max number of the cards(52)
+    and return a pointer to the Queue.</li>
+    <li>queue_push: insert an item to the rear of the content.</li>
+    <li>queue_npush: insert more than one items to the rear of the cntent.</li>
+    <li>queue_pop: cast a item from the head of the content. </li>
+    <li>queue_len: the sizes of the content.</li>
+  </ul></p>
+  <p>And the list works like a stack, as the cards that fist in will be out
+  last. So the structure like below:</p>
+  <p><pre>
+  typedef struct Stack
+  {
+    int *content;
+    int top;   // the index of the top cards
+    int length; // the current size of the cards
+  } Stack;
+  </pre></p>
+  <p>Also we have six basic method for the stack, the two different ones like
+  below:</p>
+  <p><ul>
+    <li>stack_npop: remove more than one items from the stack.</li>
+    <li>stack_isin: check if one item is in the stack or not.</li>
+  </ul></p>
+  <p>Then What we need to do is wash the cards and play the game. The
+  array_shuffle method descripe how to wash the cards, in fact, randomly. So we
+  can use</p>
+  <p><pre>
+  srand(time(NULL));
+  </pre></p>
+  <p> as a seed to generate numbers
+  differently. And the while loop in main.c file shows to play the games: if one
+  player cast a card and he can gain series of cards, he will play the next
+  round, otherwise the other player will cast.</p>
+  <p>The C source code can be seen in the project: <a
+    href="https://github.com/Qiwihui/PDT">PDT</a></p>
+  <p>As for python, it is more easy to implete this game since we can get
+  existing queue and stack from the standard librar, or we can easily use list
+  as a replacement. It is what I did.</p>
+  <p>The project is here: <a href="https://github.com/Qiwihui/PDT2">PDT2</a></p>
+  <p><b>Further</b></p>
+  <p>We can finally see the whole process that each player cast and gain cards.
+  But will it end in the last or it maybe stuck at a loop? Any idea, please
+  comment on here.</p>
+
+<script type="text/javascript">
+// enable google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46660488-1', 'daozhang.info');
+  ga('send', 'pageview');
+</script>
+
+</body>
+
+</html>
