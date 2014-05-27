@@ -3,13 +3,11 @@ layout: default
 ---
 
 <div id="content">
-    <div class="entry">
-        <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
+        <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <p>{{ page.date|date:"%Y-%m-%d" }}</p>
         
         {{ content }}
 
-    </div>
 </div>
 
 <script src="/js/post.js" type="text/javascript"></script>
