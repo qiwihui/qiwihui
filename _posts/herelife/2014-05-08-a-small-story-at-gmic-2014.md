@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: A small story at GMIC 2014
 description: A small story at GMIC 2014 with song: The Brightest Star in the Sky
