@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 5 centimeters per second
 description: A song from one movie gives a lot.
