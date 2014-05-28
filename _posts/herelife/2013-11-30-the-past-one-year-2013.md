@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: The past one year 2013
 description: A sumary of the last one year of 2013
