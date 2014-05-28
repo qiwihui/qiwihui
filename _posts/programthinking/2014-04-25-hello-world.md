@@ -5,17 +5,16 @@ description: First hello world post.
 category: programthinking
 ---
 
-04/25/2014
-
 Hello world, hello to my new blog! Before the django blog was published, I will be here to blog myself.
 
-There is wikipedia page
-[Here](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples), which contains a list of hello-world program examples. Simple or complex, these program is a overview of some of the program languages. Good job!
+There is wikipedia page[Here](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples), which 
+contains a list of hello-world program examples. Simple or complex, these program is a overview of some 
+of the program languages. Good job!
 
 List two of them that I work with now:
 
 ```c
-#include &lt;stdio.h&gt;
+#include <stdio.h>;
 
 int main()
 {
@@ -28,9 +27,9 @@ int main()
 print "Hello, world!"
 ```
 
-Just a single line. so amazing! As below says:
+Just a single line. So amazing! As below says:
 
-```
+```python
 import this
 
 The Zen of Python, by Tim Peters
