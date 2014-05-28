@@ -18,9 +18,9 @@ layout: home
 <div id="blog">
     <div id="section">
         <p>
-        [ <a href="/content/MathTalking">MathTalking</a> |
-         <a href="/content/ProgramThinking">ProgramThinking</a> |
-         <a href="/content/HereLife">HereLife</a> ]
+        [ <a href="#mathtalking">MathTalking</a> |
+         <a href="#programthinking">ProgramThinking</a> |
+         <a href="#herelife">HereLife</a> ]
         </p>
 
         <h2 id="mathtalking">Math Talking</h2>
