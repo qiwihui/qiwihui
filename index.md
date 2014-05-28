@@ -28,7 +28,6 @@ layout: home
         <ul>
         {% for post in site.categories.mathtalking %}
             <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-                <div>{{ post.description }}</div>
             </li>
         {% endfor %}
         </ul>
@@ -38,7 +37,6 @@ layout: home
         <ul>
         {% for post in site.categories.programthinking %}
             <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-                <div>{{ post.description }}</div>
             </li>
         {% endfor %}
         </ul>
@@ -48,7 +46,6 @@ layout: home
         <ul>
         {% for post in site.categories.herelife %}
             <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-                <div>{{ post.description }}</div>
             </li>
         {% endfor %}
         </ul>
