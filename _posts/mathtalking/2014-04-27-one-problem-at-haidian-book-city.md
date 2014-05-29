@@ -85,7 +85,7 @@ The fouth column in the table says what other
     subsequences the given subsequence evolves into. He also show that the
     number of the digits in each member of the sequence grows a constant from
     one member to the next. If L<ins>n</ins> is the number of the digits in the
-    n<sup>th</suo> member in the sequence, then L<ins>n+1</ins>/L<ins>n</ins> to
+    n<sup>th</sup> member in the sequence, then L<ins>n+1</ins>/L<ins>n</ins> to
       a limitation when n to infinity. It is 1.303577269... , which we call it
       as **Conway Constant**.
     <p>
