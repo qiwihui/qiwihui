@@ -1,19 +1,25 @@
 blog.daozhang.info
 ===============
 
-My own website that introduces my life, work and other things. And it will replace Daozhang.info poject.
+My own blog site that introduces my life, work and other things. And it will replace Daozhang.info poject.
 This is what I am crazy about.
 
-Goal:
---
+###What:
 
-1. My work about programming and mathematics.
-2. my life about cooking, hiking and photos.
-3. About thinking, and so on....
+ - My work about programming and mathematics.
+ - My life about cooking, hiking and photos.
+ - About thinking, and so on....
 
-Contact me: 
---
+###How:
+
+This site is forked from beiyuu's project: [beiyuu.github.com](https://github.com/beiyuu/beiyuu.github.com). Thanks a lot.
+
+Build on follows projects or sites:
+ - [Github pages](https://pages.github.com/)
+ - [Jekyll](https://github.com/jekyll/jekyll)
+ - [GoDaddy](http://www.godaddy.com/)
+ - [HE.NET](http://dns.he.net)
+
+###Contact me: 
 
 * Email:qwh005007@gmail.com
-* G+: https://plus.google.com/+WeihuiQiu/
-* FB: https://www.facebook.com/weihui.qiu
