@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: A small story at GMIC 2014
-description: A small story at GMIC 2014 with song: The Brightest Star in the Sky
+title: One small story at GMIC 2014
+description: One small story at GMIC 2014 with song - The Brightest Star in the Sky
 category: herelife
 ---
 
