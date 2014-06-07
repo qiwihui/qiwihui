@@ -27,7 +27,7 @@ layout: home
         <p>Something about math. Math is very beautiful, useful and powerful, I think i will never hate it.</p>
         <ul>
         {% for post in site.categories.mathtalking %}
-            <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li> {{ site.time | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
             </li>
         {% endfor %}
         </ul>
@@ -36,7 +36,7 @@ layout: home
         <p>Program can help you do many things effectively, not only in work, also in life. And programatic think helps a lot.</p>
         <ul>
         {% for post in site.categories.programthinking %}
-            <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li> {{ site.time | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
             </li>
         {% endfor %}
         </ul>
@@ -45,7 +45,7 @@ layout: home
         <p>My life, my plan, reading, and some other things. Maybe it will contain messy things here. </p>
         <ul>
         {% for post in site.categories.herelife %}
-            <li> {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li> {{ site.time | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
             </li>
         {% endfor %}
         </ul>
