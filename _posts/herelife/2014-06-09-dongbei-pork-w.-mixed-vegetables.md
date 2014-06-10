@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dongbei Pork w. Mixed Vegetables 
-description: A great delicious hot pot: Dongbei Pork w. Mixed Vegetables.
+description: A great delicious hot pot - Dongbei Pork w. Mixed Vegetables.
 category: herelife
 ---
 
