@@ -12,6 +12,10 @@ layout: home
         <dd> Email: qwh005007 AT gmail.com
         <dd> github: <a href="https://github.com/Qiwihui">@Qiwihui</a>
     </dl>
+	<dl>
+	    <dt><strong> RSS: </strong></dt>
+		<dd><a href="/atom.xml">atom</a>
+	</dl>
     <hr>
 </div>
 
