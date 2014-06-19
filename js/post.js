@@ -21,7 +21,8 @@ $(document).ready(function(){
         }
     };
 
-    $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
+	// add Google code highlight class
+    $('pre').addClass('prettyprint linenums');
 
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');
@@ -193,12 +194,4 @@ $(document).ready(function(){
         prettyPrint();
     });
 
-    if(/\#comment/.test(location.hash)){
-        $('#disqus_container .comment').trigger('click');
-    }
-
-    if(/css3-animation/.test(location.href)){
-        $("head").append("<link rel='stylesheet' type='text/css' href='/css/css3-ani.css'/>");
-        $.getScript('/js/css3-ani.js',function(){});
-    }
 });
