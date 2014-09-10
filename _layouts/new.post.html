@@ -1,0 +1,37 @@
+<html>
+ <head>
+   <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+   <title>{{ page.title }} - {{ site.title }}</title>
+   {% include head.html %}
+ </head>
+ <body>
+    <!-- Blog, RSS, About -->
+   {% include header.html %} {% include links.html %}
+
+   <div id='container'>
+	  <!-- Previous and next page -->
+      {% include pages.html %}
+	  
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+		    {{ page.title }}
+            <div class='date'>{{ page.date | date_to_string }}</div>
+          </h1> 
+
+          {{ content }}
+          <!-- Signoff -->
+          {% include signoff.html %}
+        </section>
+      </div>
+      <!-- Comments -->
+      {% if page.disqus == 'yes' %}
+        {% include disqus.html %}
+      {% endif %}
+	  
+    </div> 
+    <!-- -->
+    {% include footer.html %}
+
+  </body> 
+</html> 
