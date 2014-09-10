@@ -1,0 +1,10 @@
+<header>
+  <div class="title"> 
+    <!-- header-->
+    <a href="/">Qiwihui's page</a> 
+    <!-- links -->
+    {% for link in site.links %}
+        <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="extra" href="{{ link.url }}">{{ link.name }}</a>
+    {% endfor %}
+    </div>
+</header>
