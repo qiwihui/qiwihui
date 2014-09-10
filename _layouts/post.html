@@ -1,20 +1,37 @@
----
-layout: default
----
+<html>
+ <head>
+   <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+   <title>{{ page.title }} - {{ site.title }}</title>
+   {% include head.html %}
+ </head>
+ <body>
+    <!-- Blog, RSS, About -->
+   {% include header.html %} {% include links.html %}
 
-<link rel="stylesheet" href="/js/prettify/prettify.css" />
+   <div id='container'>
+	  <!-- Previous and next page -->
+      {% include pages.html %}
+	  
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+		    {{ page.title }}
+            <div class='date'>{{ page.date | date_to_string }}</div>
+          </h1> 
 
-<div id="content">
-        <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-        <p>{{ page.date|date:"%Y-%m-%d" }}</p>
-        
-        {{ content }}
+          {{ content }}
+          <!-- Signoff -->
+          {% include signoff.html %}
+        </section>
+      </div>
+      <!-- Comments -->
+      {% if page.disqus == 'yes' %}
+        {% include disqus.html %}
+      {% endif %}
+	  
+    </div> 
+    <!-- -->
+    {% include footer.html %}
 
-<div id="disqus_container">
-    <a href="#" class="comment" onclick="return false;">Click to comment.</a>
-    <div id="disqus_thread"></div>
-</div>
-
-</div>
-
-<script src="/js/post.js" type="text/javascript"></script>
+  </body> 
+</html> 
