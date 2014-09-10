@@ -1,12 +1,19 @@
-auto: true
+title:            "daozhang.info"
+description:      "Qiwihui's page"
+url:              "http://blog.daozhang,info"
+signoff:          "Chris.Q"
+disqus_shortname: "chris.q"
+facebook_appid:   ""
+google_analytics: ""
 
-markdown: rdiscount
-pygments: true
+links:
+  - name:         Blog
+    url:          /
+  - name:         RSS
+    url:          /atom.xml
+  - name:         About
+    url:          /about.html
+pygments:         true
+permalink:        /:title
+markdown:         rdiscount
 paginate: 8
-permalink: /:title
-
-title: daozhang.info
-description: Qiwihui's page
-url: http://blog.daozhang.info
-feed: /atom.xml
-author_info: <a href="http://blog.daozhang.info">Daozhang</a>
