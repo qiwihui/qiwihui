@@ -148,43 +148,59 @@ ul.posts {
 /*
 /*****************************************************************************/
 
-#post {
+.post {
 
 }
 
   /* standard */
 
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+  .post pre {
+    background-color:#000;
+    overflow-x: auto;
+    padding: 10px 15px;
+    width: 100%;
+    line-height: 1.2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
   }
 
-  #post ul,
+  .post ul,
   #post ol {
     margin-left: 1.35em;
   }
-
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
+  .post code {
+    font-size: 13px;
+    color: #eee;
+    background: #39382e;
+    padding: 2px 4px 3px;
+    border-radius: 2px;
+    line-height: 1.3em;
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto; 
   }
 
-    #post pre code {
-      border: none;
-    }
+  .post pre code {
+     background-color:transparent;
+     border:none;
+     padding:0;
+     word-wrap:normal;
+     line-height:1em;
+     font-size:12px;
+   }
 
   /* terminal */
 
-  #post pre.terminal {
+  .post pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
   }
 
-  #post pre.terminal code {
+  .post pre.terminal code {
     background-color: #333;
   }
 
