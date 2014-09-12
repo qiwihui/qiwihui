@@ -6,15 +6,17 @@
     {% include head.html %}
   </head>
   <body>
-    {% include header.html %} {% include links.html %}
-    <div id='container'>
-      <div class="content">
+    <div class="site">
+      {% include header.html %} {% include links.html %}
+      <div id='container'>
+        <div class="content">
           <section class='post'>
             <h1>{{ page.title }}</h1>
             {{ content }}
           </section>
         </div>
+      </div>
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
   </body>
 </html>

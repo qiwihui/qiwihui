@@ -5,19 +5,21 @@
    {% include head.html %}
  </head>
  <body>
+   <div class="site">
     <!-- Blog, RSS, About -->
    {% include header.html %} {% include links.html %}
 
    <div id='container'>
-	  <!-- Previous and next page -->
+   <!-- Previous and next page -->
       {% include pages.html %}
-	  
+
       <div class="content">
         <section class='post'>
-          <h1 class="upcase">
-		    {{ page.title }}
-            <div class='date'>{{ page.date | date_to_string }}</div>
-          </h1> 
+          <h1>
+            {{ page.title }}
+            <br>
+            <div class='meta'>{{ page.date | date_to_string }}</div>
+          </h1>
 
           {{ content }}
           <!-- Signoff -->
@@ -28,10 +30,10 @@
       {% if page.disqus == 'yes' %}
         {% include disqus.html %}
       {% endif %}
-	  
-    </div> 
+
+    </div>
     <!-- -->
     {% include footer.html %}
-
-  </body> 
-</html> 
+    </div>
+  </body>
+</html>
