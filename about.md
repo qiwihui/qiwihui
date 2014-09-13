@@ -1,9 +1,13 @@
 ---
 title: Me?
-layput: page
+layout: page
 ---
 
-目前比较混乱
+生已知.
+
+鬼门游者,敬畏生死.
+
+数学, C, Python.
 
 Follow me:
 

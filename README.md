@@ -9,7 +9,7 @@ Life = Math + Program + hiking + cooking...
 
 ###How:
 
-Blog = Git + Github [Page] + Jekyll + Markdown
+Blog = Git + Github [Pages] + Jekyll + Markdown
 
 ###Contact me:
 
