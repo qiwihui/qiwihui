@@ -1,19 +1,19 @@
-title:            "daozhang.info"
+title:            "blog.daozhang.info"
 description:      "Qiwihui's page"
 url:              "http://blog.daozhang.info"
 signoff:          "Chris.Q"
-disqus_shortname: "chris.q"
+disqus_shortname: "blogdaozhanginfo"
 facebook_appid:   ""
 google_analytics: ""
 
 links:
-  - name:         Blog
+  - name:         blog
     url:          /
-  - name:         RSS
-    url:          /atom.xml
-  - name:         About
+  - name:         rss
+    url:          /feed.xml
+  - name:         about
     url:          /about.html
-pygments:         true
+highlighter:      pygments
 permalink:        /:title
 markdown:         rdiscount
-paginate: 8
+paginate:         8
