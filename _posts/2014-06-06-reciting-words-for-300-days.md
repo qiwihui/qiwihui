@@ -20,7 +20,7 @@ category: herelife
 
 就是这个，犹如在远方等待着我的少女，让我坚持到了现在：
 
-<img src="/images/multnomahfalls.jpg"></img>
+<img src="/media/files/2014/Jun/06-multnomahfalls.jpg"></img>
 
 ###**方法**
 扇贝网是我知道的为数不多的几个背单词的网站，除了单词，还有新闻文章，书籍，以及一

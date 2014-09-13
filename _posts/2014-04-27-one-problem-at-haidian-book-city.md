@@ -13,7 +13,7 @@ Today, I just came by Haidian Book City as usual at Haidian dist in
 
 Here is one picture of it.
 
-<img src="/images/problem_at_haidian_book_city.jpg"></img>
+<img src="/media/files/2014/Apr/27-problem_at_haidian_book_city.jpg"></img>
 
 A translation of that:
  > *Solve this problem, then it's your domain:*
