@@ -1,3 +1,4 @@
+# general
 title:            "blog.daozhang.info"
 description:      "Qiwihui's page"
 url:              "http://blog.daozhang.info"
@@ -13,7 +14,29 @@ links:
     url:          /feed.xml
   - name:         about
     url:          /about.html
+
 highlighter:      pygments
 permalink:        /:title
 markdown:         rdiscount
 paginate:         8
+
+# Where things are
+collections:      null
+
+# Handling Reading
+keep_files:       [".git", ".svn"]
+encoding:         "utf-8"
+markdown_ext:     "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content
+show_drafts:      null
+limit_posts:      0
+future:           true
+unpublished:      false
+
+# Conversion
+# markdown:       kramdown
+
+# Serving
+detach:           false
+baseurl:          "" # does not include hostname
