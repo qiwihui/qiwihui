@@ -148,6 +148,13 @@ ul.posts {
 /*
 /*****************************************************************************/
 
+/* code {font-style:normal;font-weight:500; background:#eee;border:1px solid #ccc;padding:0 5px;font-family:"Courier";line-height:14px;font-size:14px;word-wrap:break-word;}
+
+pre {background-color:#000;padding:15px;overflow:auto;margin-bottom:40px;font-size:14px;border: 1px solid #eee;-webkit-border-radius: 4px 4px 4px 4px;-moz-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;color:#b9bdb6;margin-top:-20px; }
+*/
+pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
+pre ol{margin-left:25px;list-style-type:decimal;}
+
 .post {
 
 }
@@ -155,7 +162,9 @@ ul.posts {
   /* standard */
 
   .post pre {
-    background-color:#000;
+    background-color:#000;padding:15px;overflow:auto;margin-bottom:40px;font-size:14px;border: 1px solid #eee;-webkit-border-radius: 4px 4px 4px 4px;-moz-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;color:#b9bdb6;margin-top:-20px; 
+	
+    background-color: #272822;
     overflow-x: auto;
     padding: 10px 15px;
     width: 100%;
@@ -167,9 +176,11 @@ ul.posts {
 
   .post ul,
   #post ol {
-    margin-left: 1.35em;
+    margin-left: 1.35em; 
   }
   .post code {
+    font-style:normal;font-weight:500; background:#eee;border:1px solid #ccc;padding:0 5px;font-family:"Courier";line-height:14px;font-size:14px;word-wrap:break-word;
+	
     font-size: 13px;
     color: #eee;
     background: #39382e;
@@ -190,24 +201,6 @@ ul.posts {
      word-wrap:normal;
      line-height:1em;
      font-size:12px;
+     background: #272822;
    }
 
-  /* terminal */
-
-  .post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  .post pre.terminal code {
-    background-color: #333;
-  }
-
-#related {
-  margin-top: 2em;
-}
-
-  #related h2 {
-    margin-bottom: 1em;
-  }
