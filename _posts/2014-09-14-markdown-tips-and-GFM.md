@@ -57,20 +57,20 @@ Lists
 1. unordered lists: 
     <pre><code>*, -, +</code></pre>
 2. ordered list: 
-   ```
-   1. 
-   2. 
-   ...
-   ```
+    <pre><code>
+    1.  Bird
+    2.  McHale
+    3.  Parish
+    </code></pre>
 3. nested lists
-    ```
+
+    <pre><code>
     1. line1
     2. line2
       * subline1
       * subline1
     3. line3
-    ```
-    
+    </code></pre>
 Code formatting:
 ------
 
@@ -108,9 +108,9 @@ Links
   &#33;&#91;Alt text&#93;&#40;path/to/img "optional_title"&#41;
   </code></pre>
 5. auto links: 
-  ```
-  <link>
-  ```
+  <pre><code>
+  &#60;link&#62;
+  </code></pre>
   
 Special Character: 
 ------
@@ -125,9 +125,9 @@ Special Character:
   {}
   []
   ()
-  #
+  &#35;
   +
-  -
+  &#45;
   .
   !
   </code></pre>
@@ -135,8 +135,8 @@ Special Character:
 GFM(Github Flavored Markdown)
 ======
 
-1. it_is_not_italic
-2. URL autolinking as <code>http://github.com</code> will transfer to http://github.com
+1. `it_is_not_italic`
+2. URL autolinking as <code>http://github.com</code> will transfer to [http://github.com](http://github.com)
 3. `~~strikethrough~~` --> ~~strikethrough~~
 4. Fenced code blocks
 5. Syntax highlighting
