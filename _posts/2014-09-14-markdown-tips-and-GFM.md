@@ -58,18 +58,18 @@ Lists
     <pre><code>*, -, +</code></pre>
 2. ordered list: 
     <pre><code>
-    1.  Bird
-    2.  McHale
-    3.  Parish
+    &#185;.  Bird
+    &#178;.  McHale
+    &#179;.  Parish
     </code></pre>
 3. nested lists
 
     <pre><code>
-    1. line1
-    2. line2
-      * subline1
-      * subline1
-    3. line3
+    &#185;. line1
+    &#178;. line2
+      &#42; subline1
+      &#42; subline1
+    &#179;. line3
     </code></pre>
 Code formatting:
 ------
