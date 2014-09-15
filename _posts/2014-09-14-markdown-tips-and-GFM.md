@@ -8,6 +8,8 @@ category: programthinking
 Markdown tips and GFM
 ======
 
+Refer [Issue#4](https://github.com/qiwihui/qiwihui.github.io/issues/4) to see more details about write markdown code in markdown.
+
 markdown: easy-to-write, easy-to-read, plain text format
 
 Basic:
