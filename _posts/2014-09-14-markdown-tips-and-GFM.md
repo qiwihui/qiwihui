@@ -5,7 +5,7 @@ description: Markdown tips and github flavored markdown
 category: programthinking
 ---
 
-Markdown tips and GFM (Github Flavored Markdown)
+Markdown tips and GFM
 ======
 
 markdown: easy-to-write, easy-to-read, plain text format
@@ -13,40 +13,26 @@ markdown: easy-to-write, easy-to-read, plain text format
 Basic:
 ------
 
- 1. Parahraphs: one or more blank lines
- 2. Headings:
-   ```
-   # head1 #
-   ## head2 ##
-   ...
-   ###### head6 ######
-   ```
-   or 
-   ```
-   title
-   ======
-   
-   subtitle
-   ------
-   ```
- 3. Blockquotes:
-    ```
-    > blockquotes
-    ```
- 4. styling text:
+1. Parahraphs: one or more blank lines
+2. Headings:
+```
+# head1 #
+## head2 ##
+...
+###### head6 ######
+```
+or "===", "---"
+3. Blockquotes:
+<pre><code> 
+> blockquotes
+</code></pre>
+4. styling text:
    ```
    *bold*, _bold_
    **italic**, __italic__
    **_bold&italic_**
    ```
- 5. seperate lines:
-   ```
-   * * *
-   ***
-   ******
-   - - -
-   ------
-   ```
+5. seperated lines: 3 or more * and -
 
 Lists
 ------
@@ -124,14 +110,14 @@ GFM(Github Flavored Markdown)
 3. `~~strikethrough~~` --> ~~strikethrough~~
 4. Fenced code blocks
 5. Syntax highlighting
-
   <pre><code>
-  "```ruby
+  ```ruby
   require 'redcarpet'
   markdown = Redcarpet.new("Hello World!")
   puts markdown.to_html
   ```
-  "</code></pre>
+  </code></pre>
+
 6. Tables:
 ```
 | Left-Aligned  | Center Aligned  | Right Aligned |
