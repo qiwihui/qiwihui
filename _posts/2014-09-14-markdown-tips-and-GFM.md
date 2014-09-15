@@ -17,31 +17,52 @@ Basic:
 
 1. Parahraphs: one or more blank lines
 2. Headings:
-```
-# head1 #
-## head2 ##
-...
-###### head6 ######
-```
-or "===", "---"
+    <pre><code>
+    &#35; head1 &#35;
+    &#35;&#35; head2 &#35;&#35;
+    ...
+    &#35;&#35;&#35;&#35;&#35;&#35; head6 &#35;&#35;&#35;&#35;&#35;&#35;
+    </code></pre>
+or
+    <pre><code>
+    Head1
+    &#61;&#61;&#61;&#61;&#61;&#61;
+    
+    Head2
+    &#45;&#45;&#45;&#45;&#45;&#45;
+    </code></pre>
+
 3. Blockquotes:
-<pre><code> 
-> blockquotes
-</code></pre>
+    <pre><code>
+    > blockquotes
+    </code></pre>
 4. styling text:
-   ```
-   *bold*, _bold_
-   **italic**, __italic__
-   **_bold&italic_**
-   ```
-5. seperated lines: 3 or more * and -
+   <pre><code>
+   &#42;bold&#42;, &#95;bold&#95;
+   &#42;&#42;italic&#42;&#42;, &#95;&#95;italic&#95;&#95;
+   &#42;&#42;&#95;bold&italic&#95;&#42;&#42;
+   </code></pre>
+5. seperated lines: 
+    <pre><code>
+    &#42; &#42; &#42;
+    &#42;&#42;&#42;
+    &#42;&#42;&#42;&#42;&#42;&#42;
+    &#45; &#45; &#45;
+    &#45;&#45;&#45;&#45;&#45;&#45;
+    </code></pre>
 
 Lists
 ------
 
-  1. unordered lists: *, -, +
-  2. ordered list: 1., 2., ...
-  3. nested lists
+1. unordered lists: 
+    <pre><code>*, -, +</code></pre>
+2. ordered list: 
+   ```
+   1. 
+   2. 
+   ...
+   ```
+3. nested lists
     ```
     1. line1
     2. line2
@@ -53,32 +74,39 @@ Lists
 Code formatting:
 ------
 
-1. inline lines: ``` `code` ```
-2. multiple lins: ` ```code block``` `
+1. inline lines: 
+    <pre><code>&#96;code&#96;</code></pre>
+2. multiple lins: 
+    <pre><code>
+    &#96;&#96;&#96;
+    require 'redcarpet'
+    markdown = Redcarpet.new("Hello World!")
+    puts markdown.to_html
+    &#96;&#96;&#96;
+    </code></pre>
 
 Links
 ------
 
-1. 
-  ```[link_text](link_url)```
-2. 
-  ```
-  [link_text](link_id)
-  
+1. basic
+  <pre><code>
+  &#91;link_text&#93;&#91;link_url&#93;
+  </code></pre>
+2. seperated
+ <pre><code>
+  &#91;link_text&#93;&#91;link_id&#93;
   link_id: link_url "optional_link_title"
-  ```
-3. 
-  ```
-  [link_text][]
-  
+  </code></pre>
+3. with optional text
+  <pre><code>
+  &#91;link_text&#93;&#91;&#93;
   links: link_url "optional_link_title"
-
-  ```
+  </code></pre>
 4. images:
-  ```
-  ![Alt text](path/to/img.jpg)
-  ![Alt text](path/to/img "optional_title")
-  ```
+  <pre><code>
+  &#33;&#91;Alt text&#93;&#40;path/to/img.jpg&#41;
+  &#33;&#91;Alt text&#93;&#40;path/to/img "optional_title"&#41;
+  </code></pre>
 5. auto links: 
   ```
   <link>
@@ -89,7 +117,7 @@ Special Character:
 
 1. `<` and `&`, when they are not in code block, it will transferred to `&lt;` and `&amp;`
 2. need `\` to display:
-  ```
+  <pre><code>
   \
   `
   *
@@ -102,32 +130,32 @@ Special Character:
   -
   .
   !
-  ```
+  </code></pre>
 
 GFM(Github Flavored Markdown)
 ======
 
 1. it_is_not_italic
-2. URL autolinking as `http://github.com` will transfer to http://github.com
+2. URL autolinking as <code>http://github.com</code> will transfer to http://github.com
 3. `~~strikethrough~~` --> ~~strikethrough~~
 4. Fenced code blocks
 5. Syntax highlighting
   <pre><code>
-  ```ruby
+  &#96;&#96;&#96;ruby
   require 'redcarpet'
   markdown = Redcarpet.new("Hello World!")
   puts markdown.to_html
-  ```
+  &#96;&#96;&#96;
   </code></pre>
 
 6. Tables:
-```
+<pre><code>
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
-```
+</code></pre>
 will become
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
