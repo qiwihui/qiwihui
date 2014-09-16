@@ -5,7 +5,7 @@ description: Markdown tips and github flavored markdown
 category: programthinking
 ---
 
-Markdown tips and GFM
+Markdown tips
 ======
 
 Refer [Issue#4](https://github.com/qiwihui/qiwihui.github.io/issues/4) to see more details about write markdown code in markdown.
@@ -27,7 +27,7 @@ or
     <pre><code>
     Head1
     &#61;&#61;&#61;&#61;&#61;&#61;
-    
+
     Head2
     &#45;&#45;&#45;&#45;&#45;&#45;
     </code></pre>
@@ -36,12 +36,14 @@ or
     <pre><code>
     > blockquotes
     </code></pre>
+
 4. styling text:
    <pre><code>
    &#42;bold&#42;, &#95;bold&#95;
    &#42;&#42;italic&#42;&#42;, &#95;&#95;italic&#95;&#95;
    &#42;&#42;&#95;bold&italic&#95;&#42;&#42;
    </code></pre>
+
 5. seperated lines: 
     <pre><code>
     &#42; &#42; &#42;
@@ -56,12 +58,14 @@ Lists
 
 1. unordered lists: 
     <pre><code>*, -, +</code></pre>
+
 2. ordered list: 
     <pre><code>
     &#185;.  Bird
     &#178;.  McHale
     &#179;.  Parish
     </code></pre>
+
 3. nested lists
 
     <pre><code>
@@ -71,12 +75,14 @@ Lists
       &#42; subline1
     &#179;. line3
     </code></pre>
+
 Code formatting:
 ------
 
-1. inline lines: 
+1. inline lines:
     <pre><code>&#96;code&#96;</code></pre>
-2. multiple lins: 
+
+2. multiple lins:
     <pre><code>
     &#96;&#96;&#96;
     require 'redcarpet'
@@ -92,30 +98,35 @@ Links
   <pre><code>
   &#91;link_text&#93;&#91;link_url&#93;
   </code></pre>
+
 2. seperated
  <pre><code>
   &#91;link_text&#93;&#91;link_id&#93;
   link_id: link_url "optional_link_title"
   </code></pre>
+
 3. with optional text
   <pre><code>
   &#91;link_text&#93;&#91;&#93;
   links: link_url "optional_link_title"
   </code></pre>
+
 4. images:
   <pre><code>
   &#33;&#91;Alt text&#93;&#40;path/to/img.jpg&#41;
   &#33;&#91;Alt text&#93;&#40;path/to/img "optional_title"&#41;
   </code></pre>
-5. auto links: 
+
+5. auto links:
   <pre><code>
   &#60;link&#62;
   </code></pre>
-  
-Special Character: 
+
+Special Character:
 ------
 
 1. `<` and `&`, when they are not in code block, it will transferred to `&lt;` and `&amp;`
+
 2. need `\` to display:
   <pre><code>
   \
