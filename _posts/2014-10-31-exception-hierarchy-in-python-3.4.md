@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Exception hierarchy in python 3.4
 description: Exception hierarchy in python 3.4
@@ -7,7 +7,6 @@ category: ProgramThinking
 
 Python 3.4中异常继承结构图：
 
-```python
 [BaseException](https://docs.python.org/3.4/library/exceptions.html#BaseException)
  +-- [SystemExit](https://docs.python.org/3.4/library/exceptions.html#SystemExit)
  +-- [KeyboardInterrupt](https://docs.python.org/3.4/library/exceptions.html#KeyboardInterrupt)
@@ -69,4 +68,3 @@ Python 3.4中异常继承结构图：
            +-- [UnicodeWarning](https://docs.python.org/3.4/library/exceptions.html#UnicodeWarning)
            +-- [BytesWarning](https://docs.python.org/3.4/library/exceptions.html#BytesWarning)
            +-- [ResourceWarning](https://docs.python.org/3.4/library/exceptions.html#ResourceWarning)
-```
