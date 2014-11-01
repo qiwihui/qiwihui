@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Exception hierarchy in python 3.4
 description: Exception hierarchy in python 3.4
