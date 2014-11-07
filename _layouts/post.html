@@ -15,11 +15,8 @@
        {% include pages.html %}
 
        <div class="post">
-          <h1>
-            {{ page.title }}
-            <br>
-            <div class='meta'>{{ page.date | date_to_string }}</div>
-          </h1>
+          <h1>{{ page.title }}</h1>
+          <p><div class='meta'>{{ page.date | date_to_string }}</div></p>
 
           {{ content }}
           <!-- Signoff -->
