@@ -21,19 +21,12 @@ $(document).ready(function(){
         }
     };
 
-    // add Google code highlight class
-    $('pre').addClass('prettyprint linenums');
-
     // disqus
     window.disqus_shortname = 'blogdaozhanginfo';
     $('#disqus_container .comment').on('click',function(){
         $(this).html('Loading...');
         var that = this;
         $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
-    });
-
-    $.getScript('/js/prettify/prettify.js',function(){
-        prettyPrint();
     });
 
 });
