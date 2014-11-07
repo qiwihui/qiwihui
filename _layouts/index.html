@@ -6,13 +6,15 @@
  </head>
  <body>
    <div class='site'>
-     {% include header.html %} {% include links.html %}
-     <div id='container'>
-     <div class="content">
-        {{ content }}
-      </div>
-    </div>
+     <div id="header">
+             {% include header.html %} {% include links.html %}
+     </div>
+     <div id="container">
+       <div class="posts">
+         {{ content }}
+       </div>
+     </div>
     {% include footer.html %}
-  </div>
+   </div>
  </body>
 </html>

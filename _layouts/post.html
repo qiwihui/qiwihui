@@ -6,15 +6,15 @@
  </head>
  <body>
    <div class="site">
-    <!-- Blog, RSS, About -->
-   {% include header.html %} {% include links.html %}
+     <div id="header">
+       <!-- Blog, RSS, About -->
+       {% include header.html %} {% include links.html %}
+     </div>
+     <div id='container'>
+       <!-- Previous and next page button -->
+       {% include pages.html %}
 
-   <div id='container'>
-   <!-- Previous and next page -->
-      {% include pages.html %}
-
-      <div class="content">
-        <section class='post'>
+       <div class="post">
           <h1>
             {{ page.title }}
             <br>
@@ -24,7 +24,6 @@
           {{ content }}
           <!-- Signoff -->
           {% include signoff.html %}
-        </section>
       </div>
       <!-- Comments -->
       {% if page.disqus == 'yes' %}
@@ -32,8 +31,8 @@
       {% endif %}
 
     </div>
-    <!-- -->
+    <!-- footer -->
     {% include footer.html %}
-    </div>
-  </body>
+  </div>
+</body>
 </html>
