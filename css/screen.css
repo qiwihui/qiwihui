@@ -72,16 +72,25 @@ ul.posts {
     font-size: 80%;
   }
 
-ol.posts {
+ul {
   margin-left: 20px;
-  list-style-type: none;
+  list-style-type: initial;
   margin-bottom: 2em;
 }
 
-  ol.posts li {
+  ul.post li {
     line-height: 1.75;
   }
 
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-bottom: 2em;
+}
+/*  ol.post li {
+    line-height: 1.75;
+  }
+*/
 /*****************************************************************************/
 /*
 /* Site
@@ -123,6 +132,7 @@ ol.posts {
 
   .site .meta {
     color: #aaa;
+    font-size: 90%;
   }
 
   .site .footer {
@@ -154,29 +164,8 @@ ol.posts {
  .paging .left {
     margin-left: -370px; }
 
-.paging .right {
+ .paging .right {
     margin-left: 350px; }
-
-/*
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
-
-      .site .footer .contact a {
-        color: #8085C1;
-      }
-
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
-      }
-*/
 
 /*****************************************************************************/
 /*
@@ -184,7 +173,7 @@ ol.posts {
 /*
 /*****************************************************************************/
 
-pre {
+pre.post {
     border:1px solid #999;
     page-break-inside:avoid;
 }
