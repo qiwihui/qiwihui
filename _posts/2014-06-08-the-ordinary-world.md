@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Ordinary World
+title: 《平凡的世界》
 description: The Ordinary word is one of Lu Yao s representative.
 category: herelife
 ---
