@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The meaning of travel(4) - hope to travel
+title: 旅行小记之期待旅行
 description: Always want to travel when I am not on the journey.
 category: herelife
 ---

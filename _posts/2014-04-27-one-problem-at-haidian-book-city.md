@@ -8,7 +8,7 @@ category: mathtalking
 Today, I just came by Haidian Book City as usual at Haidian dist in
     Beijing. and I found the problem hung on the wall nearby. It is very
     interesting and I want to share it.
-	
+
 ###**0x00 Problem**
 
 Here is one picture of it.
@@ -16,11 +16,12 @@ Here is one picture of it.
 <img src="/media/files/2014/Apr/27-problem_at_haidian_book_city.jpg"></img>
 
 A translation of that:
+
  > *Solve this problem, then it's your domain:*
- > *{3, 13, 1113, 3113,..., the 8<sup>th</sup> number}.angelcrunch.com*
+ > *{3, 13, 1113, 3113,..., the 8<sup>th</sup> number}.angelcrunch.com*  
  > *(the QR code leads to the below link)*
  > *[www.angelcrunch.com/jiemi](http://www.angelcrunch.com/jiemi)*
- 
+
 Once you finish it, you will get the second as below:
 
  > *Guess a television series by the following numbers, and you will get an interview.*
@@ -39,7 +40,7 @@ the same digit. For example:
  - 13 is reading off as "one 1 one 3" or 1113.
  - 1113 is reading off as "three 1s, then one 3" or 3113.
  - and so on.
-	
+
 If we start with any digit *d* from 0 to 9 then *d* will remain
 indefinitely as the last digit of the sequence. For *d* different from 1, the
 sequence starts as follows:

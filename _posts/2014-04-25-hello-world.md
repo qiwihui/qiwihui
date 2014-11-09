@@ -7,11 +7,13 @@ category: programthinking
 
 Hello world, hello to my new blog! Before the django blog was published, I will be here to blog myself.
 
-There is wikipedia page[Here](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples), which 
+There is wikipedia page [Here](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples), which 
 contains a list of hello-world program examples. Simple or complex, these program is a overview of some 
 of the program languages. Good job!
 
 List two of them that I work with now:
+
+Hello-world in C:
 
 ```c
 #include <stdio.h>;
@@ -22,6 +24,7 @@ int main()
     return 0;
 }
 ```
+Hello-world in Python:
 
 ```python
 print "Hello, world!"

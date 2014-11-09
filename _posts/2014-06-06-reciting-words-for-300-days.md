@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reciting words for 300 days
+title: 扇贝300天小记
 description: How to do it and what can it bring to you.
 category: herelife
 ---

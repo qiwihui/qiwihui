@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The mean of travel(2) - The way you traveling
+title: 旅行小记之旅行的方式
 description: talk about the way when traveling.
 category: herelife
 ---

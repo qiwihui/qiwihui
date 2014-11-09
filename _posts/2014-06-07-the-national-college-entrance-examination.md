@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The national college entrance examination
+title: 写在又一年高考之际
 description: My story and the thought about it.
 category: herelife
 ---

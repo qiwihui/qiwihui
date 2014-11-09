@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First day without smart phones
+title: 没有智能手机的第一天
 description: Without smart phones, what life will be?
 category: herelife
 ---
@@ -39,4 +39,4 @@ category: herelife
 
 ###**目标**
 
-尽最大的诚意，但不知道何时会消失，如果可以，就不要**再试一次**。
+ > 尽最大的诚意，但不知道何时会消失，如果可以，就不要**再试一次**。

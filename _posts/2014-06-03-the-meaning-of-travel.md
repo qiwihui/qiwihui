@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The meaning of travel
+title: 关于第一次旅行
 description: Two days in Beidaihe, journey with one girl just met.
 category: herelife
 ---
