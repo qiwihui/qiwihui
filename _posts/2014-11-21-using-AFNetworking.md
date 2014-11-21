@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
-description: 
-category: 
+title: 在Swift中使用AFNetworking框架
+description: 在Swift中使用AFNetworking框架
+category: ProgramThinking
 ---
 
 如何在Swift项目中使用[AFNetworking](https://github.com/AFNetworking/AFNetworking)框架？
