@@ -1,8 +1,8 @@
-<div class="title"> 
+<h1><center style="background: #666;color: whitesmoke;">
     <!-- header-->
-    <a href="/">Qiwihui's page</a> 
+    <a href="/">Qiwihui's page</a>&nbsp;
     <!-- links -->
     {% for link in site.links %}
-        <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="extra" href="{{ link.url }}">{{ link.name }}</a>
+        <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="extra" href="{{ link.url }}">{{ link.name }}</a>&nbsp;
     {% endfor %}
-</div>
+</center></h1>

@@ -1,33 +1,20 @@
 <html>
- <head>
-   <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
-   <title>{{ page.title }} - {{ site.title }}</title>
-   {% include head.html %}
- </head>
- <body>
-   <div class="site">
-     <div id="header">
-       <!-- Blog, RSS, About -->
-       {% include header.html %} {% include links.html %}
-     </div>
-     <div id='container'>
-       <!-- Previous and next page button -->
-       {% include pages.html %}
+<head>
+  <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include head.html %}
+</head>
+<body>
+    <h1 style="background: #666;color: whitesmoke;"><a href="/"> &lt; </a>&nbsp;{{ page.title }}</h1>
+    <p><div class='meta'>{{ page.date | date_to_string }}</div></p>
 
-       <div class="post">
-          <h1>{{ page.title }}</h1>
-          <p><div class='meta'>{{ page.date | date_to_string }}</div></p>
+    {{ content }}
+    <!-- Signoff -->
+    {% include signoff.html %}
+    <!-- Comments -->
+    {% include disqus.html %}
 
-          {{ content }}
-          <!-- Signoff -->
-          {% include signoff.html %}
-      </div>
-      <!-- Comments -->
-      {% include disqus.html %}
-
-    </div>
     <!-- footer -->
     {% include footer.html %}
-  </div>
 </body>
 </html>
