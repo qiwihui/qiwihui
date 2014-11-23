@@ -9,38 +9,13 @@
     <p><div class='meta'>{{ page.date | date_to_string }}</div></p>
 
     {{ content }}
+
     <!-- Signoff -->
     {% include signoff.html %}
 
     <!-- Comments -->
+    {% include comments.html %}
 
-<div id="comments">
-    <h3>Comments</h3>
-    <div id="header">
-        Visit <a href="https://github.com/qiwihui/qiwihui.github.io/issues/{{page.commentIssueId}}"> this post's issue page on GitHub</a> to leave comments (you'll need a GitHub account).
-    </div>
-</div>
-
-<script type="text/javascript">
-    function loadComments(data) {
-        for (var i=0; i<data.length; i++) {
-            var cuser = data[i].user.login;
-            var cuserlink = "https://www.github.com/" + data[i].user.login;
-            var clink = "https://github.com/qiwihui/qiwihui.github.io/issues/{{page.commentIssueId}}#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
-            var cbody = data[i].body;
-            var cavatarlink = data[i].user.avatar_url;
-            var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
-            $("#comments").append("<div class='comment'><div class='commentheader'><div class='commentgravatar'>" + '<img src="' + cavatarlink + '" alt="" width="20" height="20">' + "</div><a class='commentuser' href=\""+ cuserlink + "\">" + cuser + "</a><a class='commentdate' href=\"" + clink + "\">" + cdate + "</a></div><div class='commentbody'>" + cbody + "</div></div>");
-        }
-    }
-    $.ajax("https://api.github.com/repos/qiwihui/qiwihui.github.io/issues/{{page.commentIssueId}}/comments?per_page=100", {
-        headers: {Accept: "application/vnd.github.v3+json"},
-        dataType: "json",
-        success: function(msg){
-            loadComments(msg);
-        }
-    });
-</script>
     <!-- footer -->
     {% include footer.html %}
 </body>

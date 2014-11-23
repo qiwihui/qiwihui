@@ -169,7 +169,7 @@ sup {
 
 .comment {
     background-color: transparent;
-    border-color: #CACACA;
+    border-color: #bfccd1;
     border-style: solid;
     border-width: 1px;
     color: black;
@@ -177,16 +177,26 @@ sup {
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 0px;
-    width: 100%;
+    border-radius: 3px;
   }
 
 .comment .commentheader {
-  border-bottom-color: #CACACA;
+  position: relative;
+  border-bottom: 1px solid #eee;
+
+  border-bottom-color: rgb(238, 238, 238);
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: black;
+  background-color: #f2f8fa;
+  /*
   background-image: -webkit-linear-gradient(#F8F8F8,#E1E1E1);
   background-image: -moz-linear-gradient(#F8F8F8,#E1E1E1);
+  */
   color: black;
   display: block;
   float: left;
@@ -294,6 +304,7 @@ sup {
 }
 
 .comment .commentbody {
+  position: relative;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: transparent;
@@ -301,15 +312,16 @@ sup {
   background-origin: padding-box;
   color: #333;
   display: block;
+  /*
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 40px;
+  */
+  margin-top: 33px;
+  padding: 15px;
   overflow-x: visible;
   overflow-y: visible;
-  padding: 0em;
   position: static;
-  width: 96%;
   word-wrap: break-word;
 }
 
