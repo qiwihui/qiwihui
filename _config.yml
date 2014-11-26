@@ -13,6 +13,8 @@ links:
   - name:         rss
     url:          /feed.xml
   - name:         about
+    url:          /about.md
+  - name:         geek
     url:          /about.html
 
 highlighter:      pygments
