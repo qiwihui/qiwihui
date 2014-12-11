@@ -6,10 +6,61 @@ category: Translate
 commentIssueId: 8
 ---
 
+原文在[这儿](http://forums.udacity.com/questions/2017002/python-101-unit-1-understanding-indices-and-slicing)
+
+许多初次接触Python的人对于索引都会有同样的反应：这太奇怪了。在Python的列表，字符串和条件语句中都充斥着索引，但在我们习惯他们之前，
+这些都会是我们程序的错误来源。因此，让我们硬着头皮上吧！
+
+这片文章会写得很慢，为了解释一些基础和默认的东西。
+
+我们会使用字符串切片举例，因为这事我们首先接触的，不过这对于列表切片和设定范围是一样的。我们有：
+
+~~~ python
+a = '0123456789'
+~~~
+
+其中第k个位置的字符为k。
+
+我们使用如下方式对a进行切片：
+
+~~~ python
+b = a[start:stop:step]
+~~~
+
+或者直接地：
+
+~~~ python
+'0123456789'[start:stop:step]
+~~~
+
+在Python中，字符串和指向字符串的变量都是对象，所以都可以进行切片（事实上，Python中所有东西都是对象：数字，变量，字符串，函数，文件）。
+
+有三件事情需要记住：
+
+1. `start` 是我们想要的第一项（当然）
+2. `stop` 是我们第一个不想要的项
+3. `step` 可以是正整数，也可以是负数，定义了向前（从第一个位置到向末尾）还是向后（从最后一个位置向开始位置）索引。
+
+一个小提醒：但我们学习python之外其他语言的时候，stop的定义是Python索引和切片在熟悉其语言的程序员看来如此奇怪的原因之一。在大部分计算机
+语言中，stop应该是“我们需要的最后一项”。不管这个定义是否比其他语言更好或者更坏，Python的确是不寻常的一种语言。
+
+在索引中使用负数是python另一个奇怪的特性。在大部分C衍生的语言（C/C++/C#，Java,，Javascript等）中，负数索引是不合法的，因为索引表示从
+字符串初始内存地址的偏移，所以负数索引会指向字符串开始位置之前的位置（更详细的请参见这篇博客：
+[为什么python中索引从0开始](http://blog.daozhang.info/Why-does-indexing-begin-at-0/)）。然而，Python并不是唯一使用负数索引的语言，比如，
+[Perl](http://www.tutorialspoint.com/perl/perl_arrays.htm)像python一样使用负数索引来表示从字符串末尾开始的位置；
+[R](http://www.r-tutor.com/r-introduction/vector/vector-index)语言面向统计，A[-i]表示所有除第i位置的值。不过，只有很少的语言
+在任意情况下使用负数索引。
+
+现在让我们回到Python索引上。
+
+** 使用正数和负数索引 **
+
+我们可以使用正整数表示字符串中的位置，由字符串开头从0开始计数：
+
 ~~~ python
 b = "my mistress' eyes are nothing like the sun"
      ^         ^                              ^
-   b[-42]   b[-32]                          b[-1]
+    b[0]      b[10]                          b[41]
 ~~~
 
 我们用len()函数来获取一个字符串的长度。因此，b有42个字符，故len(b)=42。因为b最后一个字符是`b[41]`，所以`len(b)`比b字符串最后位置索引多1。
