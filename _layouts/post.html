@@ -5,18 +5,42 @@
   {% include head.html %}
 </head>
 <body>
-    <h1 style="background: #666;color: whitesmoke;"><a href="/"> &lt; </a>&nbsp;{{ page.title }}</h1>
-    <p><div class='meta'>{{ page.date | date_to_string }}</div></p>
+    <div class="wrap">
+        <div class="blog-masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="/"></a>
+                        <h1 class="blog-title"><a href="/">Qiwihui's Page</a></h1>
+                    </div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blog-post single">
+                <h2 class="blog-post-title centered">{{ page.title }}</h2>
+                <p class="blog-post-meta single">
+                    Postd on <strong>{{ page.date | date_to_string }}</strong> by {{ site.signoff }}
+                    <br>
+                    Category: {{ page.category }}
+                </p>
+                <div class="blog-post-content">
+                    {{ content }}
+                    <!--
+                    {% if page.tags %}
+                        <p class="blog-post-meta footer-meta">Tags: {{ page.tags }}</p>
+                    {% else %}
+                        <br>
+                    {% endif %}
+                    -->
+                </div>
+                <div class="wall"></div>
+                {% include disqus.html %}
 
-    {{ content }}
-
-    <!-- Signoff -->
-    {% include signoff.html %}
-
-    <!-- Comments -->
-    {% include comments.html %}
-
-    <!-- footer -->
-    {% include footer.html %}
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
 </body>
 </html>

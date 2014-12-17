@@ -1,20 +1,32 @@
 <html>
- <head>
+<head>
    <meta content='{{ site.title }}' property='og:title' />
    <title>{{ site.title }}</title>
    {% include head.html %}
- </head>
- <body>
-   <div class='site'>
-     <div id="header">
-             {% include header.html %} {% include links.html %}
-     </div>
-     <div id="container">
-       <div class="posts">
-         {{ content }}
-       </div>
-     </div>
-    {% include footer.html %}
-   </div>
- </body>
+</head>
+<body>
+    <div class="wrap">
+        <div class="blog-masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="/"></a>
+                        <h1 class="blog-title"><a href="/">Qiwihui's Page</a></h1>
+                    </div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blog-post single">
+                <h2 class="blog-post-title centered">{{ page.title }}</h2>
+                <div class="blog-post-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+
+</body>
 </html>
