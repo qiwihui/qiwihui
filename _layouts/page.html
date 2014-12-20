@@ -1,22 +1,44 @@
 <html>
-  <head>
-    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
-    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
-    <title>{{ page.title }} - {{ site.title }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    <div class="site">
-      <div id="header">
-        {% include header.html %} {% include links.html %}
-      </div>
-      <div id='container'>
-          <div class='post'>
-            <h1>{{ page.title }}</h1>
-              {{ content }}
-          </div>
-      </div>
-      {% include footer.html %}
+<head>
+  <meta content='{{ page.title }} - {{ site.title }}' name='title' />
+  <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include head.html %}
+</head>
+<body>
+    <div class="wrap">
+        <div class="blog-masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="/"></a>
+                        <h1 class="blog-title"><a href="/">Qiwihui's Page</a></h1>
+                    </div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blog-post single">
+                <h2 class="blog-post-title centered">{{ page.title }}</h2>
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span class="side-image well-image chris-qiu-avatar col-sm-3"></span>
+                        </div>
+                        <div class="col-md-9">
+                            <h3>{{ site.signoff }}</h3>
+                            <p class="well-content">
+                                {{ content }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% include disqus.html %}
+
+            </div>
+        </div>
+        {% include footer.html %}
     </div>
-  </body>
+</body>
 </html>

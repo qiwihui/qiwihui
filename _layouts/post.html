@@ -21,7 +21,7 @@
             <div class="blog-post single">
                 <h2 class="blog-post-title centered">{{ page.title }}</h2>
                 <p class="blog-post-meta single">
-                    Postd on <strong>{{ page.date | date_to_string }}</strong> by {{ site.signoff }}
+                Postd on <strong>{{ page.date | date_to_string }}</strong> by <a href="/about.html">{{ site.signoff }}</a>
                     <br>
                     Category: {{ page.category }}
                 </p>

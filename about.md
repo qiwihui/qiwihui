@@ -1,16 +1,9 @@
 ---
-title: Me?
 layout: page
+title: Me?
 ---
 
-生已知.
+Enjoying making things with Mathematics, C and Python.
 
-鬼门游者,敬畏生死.
-
-数学, C, Python.
-
-Follow me:
-
-* [github](https://github.com/qiwihui)
-
-Mail: qwh005007(at)gmail(dot)com
+Check out my open source efforts on [github](https://github.com/qiwihui). 
+Want to get in touch? Feel free to drop me an [email](mailto:up.chaos@gmail.com).
