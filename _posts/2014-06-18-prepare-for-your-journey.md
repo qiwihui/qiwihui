@@ -3,6 +3,7 @@ layout: post
 title: 旅行小记之出发的准备（未完成）
 description: You need to prepare more or less?
 category: herelife
+tags: travel, plan
 ---
 
 （I will update this essay in a few month later.）

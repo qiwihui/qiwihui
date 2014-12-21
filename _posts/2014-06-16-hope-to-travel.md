@@ -3,6 +3,7 @@ layout: post
 title: 旅行小记之期待旅行
 description: Always want to travel when I am not on the journey.
 category: herelife
+tags: travel, plan
 ---
 
 清游的行程进行到了第二站，泰山结束刚刚回到工作中，在疼痛中度过了前两天，果然

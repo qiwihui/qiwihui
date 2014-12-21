@@ -4,6 +4,7 @@ title: 翻译-理解Python索引和切片
 description: Python索引和切片
 category: Translate
 commentIssueId: 8
+tags: python, indices, slicing
 ---
 
 原文在[这儿](http://forums.udacity.com/questions/2017002/python-101-unit-1-understanding-indices-and-slicing)

@@ -3,6 +3,7 @@ layout: post
 title: 去你大爷的
 description: When you decide to eat at a restaurant, what will you do. 
 category: herelife
+tags: shit
 ---
 
 昨天下班后一个人去了一家快餐店迟晚饭，然后到了一个来点餐的男同志，

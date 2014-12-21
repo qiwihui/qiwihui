@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 《平凡的世界》
-description: The Ordinary word is one of Lu Yao s representative.
+description: The Ordinary world is one of Lu Yao s representative.
 category: herelife
+tags: books
 ---
 
 我今天要去两个书店淘书，万圣园和蓝羊书坊，便就想起了去年八月读过的小说《平凡的

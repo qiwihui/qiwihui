@@ -3,6 +3,7 @@ layout: post
 title: 过去的 2013年
 description: A sumary of the last one year of 2013
 category: herelife
+tags: summary
 ---
 
 写在2013年到2014年还有不到一个月的时候。

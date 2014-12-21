@@ -3,6 +3,7 @@ layout: post
 title: 旅行小记之夜登泰山
 description: My Trip to Taishan Mountain on June 14.
 category: herelife
+tags: travel, Mountain
 ---
 
 毕业之后想过去很多地方，却始终止步于想，总是找各种理由来搪塞自己出行的计划：

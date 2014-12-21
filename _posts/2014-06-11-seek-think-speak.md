@@ -3,6 +3,7 @@ layout: post
 title: Seek, think then speak
 description: How we deal with daily issues.
 category: herelife
+tags: seek, think, speak
 ---
 
 “Seek, think then speak”，这是我在我的[Twitter](https://twitter.com/Weihui_Q)

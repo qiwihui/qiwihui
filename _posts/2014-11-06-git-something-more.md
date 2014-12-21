@@ -3,6 +3,7 @@ layout: post
 title: Git something more
 description: some small git tips
 category: ProgramThinking
+tags: git
 ---
 
 整理自[手把手教你用git](http://www.cnblogs.com/tugenhua0707/p/4050072.html).

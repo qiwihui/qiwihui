@@ -3,6 +3,7 @@ layout: post
 title: 旅行小记之旅行的方式
 description: talk about the way when traveling.
 category: herelife
+tags: travel, plan
 ---
 
 有很多种可以旅行的方式，每个人都会选择合适自己的路线，合适自己的地方，去追寻

@@ -3,9 +3,10 @@ layout: post
 title: Built-in constraints in python 3.4
 description: built-in constraints in python 3.4
 category: ProgramThinking
+tags: python3, constraints
 ---
 
-1. built-in namespace:  
+1. built-in namespace
     + `False`: bool, SyntaxError
     + `True`: bool, SyntaxError
     + `None`: NoneType唯一的值，常表示值得缺失. SyntaxError

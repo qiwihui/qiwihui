@@ -3,6 +3,7 @@ layout: post
 title: 东北大乱炖
 description: A great delicious hot pot - Dongbei Pork w. Mixed Vegetables.
 category: herelife
+tags: travel, food
 ---
 
 在去了北戴河之后，我才第一次吃到了我一直想吃的东北乱炖，在一家看着很正宗的东北餐馆中。

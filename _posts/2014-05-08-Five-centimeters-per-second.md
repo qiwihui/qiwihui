@@ -3,6 +3,7 @@ layout: post
 title: 5 centimeters per second
 description: A song from one movie gives a lot.
 category: herelife
+tags: songs, 5m/s
 ---
 
 I listened to the song *One more time, One more chance* inadvertently, and it feels good. 

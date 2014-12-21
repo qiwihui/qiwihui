@@ -3,6 +3,7 @@ layout: post
 title: 关于第一次旅行
 description: Two days in Beidaihe, journey with one girl just met.
 category: herelife
+tags: travel, meaning
 ---
 
 因为计划的天津之行一直耽搁，我决定一个人去另一个地方旅行，朋友说：你不要一个人去

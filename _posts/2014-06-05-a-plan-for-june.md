@@ -3,6 +3,7 @@ layout: post
 title: 六月的计划
 description: My travel, study plan in June 2014.
 category: herelife
+tags: travel, plan
 ---
 
 我觉得今年的六月，也就是这个月应该是适合旅行的一个月，从北戴河回来，旅游的热情
