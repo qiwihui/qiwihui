@@ -3,6 +3,7 @@ layout: post
 title: A card game
 description: A small card game.
 category: programthinking
+tags: cardgame, c
 ---
 
 Here I am going to implement a game process using python and C. I have no

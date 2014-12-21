@@ -3,6 +3,7 @@ layout: post
 title: One small story at GMIC 2014
 description: One small story at GMIC 2014 with song - The Brightest Star in the Sky
 category: herelife
+tags: songs, GMIC, MidiMusicFestival
 ---
 
 ###**0x00**

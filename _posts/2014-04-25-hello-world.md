@@ -3,6 +3,7 @@ layout: post
 title: Hello World!
 description: First hello world post.
 category: programthinking
+tags: helloworld, python
 ---
 
 Hello world, hello to my new blog! Before the django blog was published, I will be here to blog myself.

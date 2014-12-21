@@ -3,6 +3,7 @@ layout: post
 title: Work With Git
 description: something about git.
 category: programthinking
+tags: git
 ---
 
 These days I am working on git, I found it very useful to control my project after I got some tips about it. Actually, it is designed for it.

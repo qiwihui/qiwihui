@@ -3,6 +3,7 @@ layout: post
 title: Exception hierarchy in python 3.4
 description: Exception hierarchy in python 3.4
 category: ProgramThinking
+tags: ExceptionHierarchy, python3
 ---
 
 Python 3.4中异常继承结构图：

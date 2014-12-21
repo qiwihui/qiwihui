@@ -4,6 +4,7 @@ title: 在Swift中使用AFNetworking框架
 description: 在Swift中使用AFNetworking框架
 category: ProgramThinking
 commentIssueId: 6
+tags: swift, AFNetworking
 ---
 
 如何在Swift项目中使用[AFNetworking](https://github.com/AFNetworking/AFNetworking)框架？

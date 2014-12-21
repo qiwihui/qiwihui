@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
   <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
@@ -17,13 +18,11 @@
                 </p>
                 <div class="blog-post-content">
                     {{ content }}
-                    <!--
                     {% if page.tags %}
                         <p class="blog-post-meta footer-meta">Tags: {{ page.tags }}</p>
                     {% else %}
-                        <br>
+                        <p class="blog-post-meta footer-meta">Tags: none</p>
                     {% endif %}
-                    -->
                 </div>
                 <div class="wall"></div>
                 {% include disqus.html %}

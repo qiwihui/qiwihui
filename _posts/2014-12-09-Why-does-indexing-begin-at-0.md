@@ -4,6 +4,7 @@ title: 翻译-为什么python中索引从0开始
 description: 为什么python中索引从0开始
 category: Translate
 commentIssueId: 7
+tags: python, indexing
 ---
 
 原文在[这儿](http://forums.udacity.com/questions/100086491/why-does-indexing-begin-at-0?page=1&focusedAnswerId=100086607#100086607)。

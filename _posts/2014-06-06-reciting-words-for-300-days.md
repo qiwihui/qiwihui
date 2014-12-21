@@ -3,6 +3,7 @@ layout: post
 title: 扇贝300天小记
 description: How to do it and what can it bring to you.
 category: herelife
+tags: shanbay, englishwords
 ---
 
 到今天，我已经在[扇贝](http://www.shanbay.com)网上完成了300+天的背单词和阅读文章

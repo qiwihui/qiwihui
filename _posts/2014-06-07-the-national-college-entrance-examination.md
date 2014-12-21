@@ -3,6 +3,7 @@ layout: post
 title: 写在又一年高考之际
 description: My story and the thought about it.
 category: herelife
+tags: NCEE, rebuild
 ---
 
 如果不先化为灰烬，又怎么可能重生！
