@@ -2,7 +2,8 @@
 layout: post
 title: 在VirtualBox安装Arch Liux指南
 description: VirtualBox安装Arch Liux指南
-category:
+category: ProgramThinking
+tags: arch linux; virtualbox, MAC OS
 ---
 
 简单地写一下在VirtualBox上安装Arch Linux的过程，以此为在PC上安装做准备。在PC上安装的过程和下面描述的基本一致。
@@ -14,13 +15,13 @@ category:
 
 2. 检查文件的完整性：在MAC中使用md5或者sha1检验文件的完整行，并和下载站点提供的值进行比较。
 
-~~~shell
-$ openssl sha1 archlinux-2014.12.01-dual.iso 
-SHA1(archlinux-2014.12.01-dual.iso)= 86085153f97f0097fd0a02496e67cf85138c1ba5
+    ~~~sh
+    $ openssl sha1 archlinux-2014.12.01-dual.iso 
+    SHA1(archlinux-2014.12.01-dual.iso)= 86085153f97f0097fd0a02496e67cf85138c1ba5
 
-$ md5 archlinux-2014.12.01-dual.iso 
-MD5 (archlinux-2014.12.01-dual.iso) = 667ed3c5e935666edfd54a2271e05b72
-~~~
+    $ md5 archlinux-2014.12.01-dual.iso 
+    MD5 (archlinux-2014.12.01-dual.iso) = 667ed3c5e935666edfd54a2271e05b72
+    ~~~
 
 ##0x01 创建虚拟机
 
@@ -48,8 +49,6 @@ MD5 (archlinux-2014.12.01-dual.iso) = 667ed3c5e935666edfd54a2271e05b72
 8. 第一次启动虚拟机时，选取之前下载的ISO文件
     <img src="/media/files/2015/Jan/7-SelectISOFile.png"><img>
 
-<img src="/media/files/2015/Jan/10-ArchLinux.png"><img>
-
 ##0x01 开始安装
 
 1. 选择32位或者64位Arch
@@ -67,27 +66,6 @@ MD5 (archlinux-2014.12.01-dual.iso) = 667ed3c5e935666edfd54a2271e05b72
     ```
 
     layout可以是`uk`, `dvorak`等。设置语言：
-
-    ```sh
-    # nano /etc/locale.conf
-    ```
-
-    添加：
-
-    ```
-    LANG="en_US.UTF-8"
-    ```
-
-    ```sh
-    # nano /etc/locale.gen
-    ```
-
-    将下面两行前面`#`去除：
-
-    ```
-    en_US.UTF-8 UTF-8
-    de_DE.UTF-8 UTF-8
-    ```
 
 2. 磁盘分区
 
@@ -126,18 +104,251 @@ MD5 (archlinux-2014.12.01-dual.iso) = 667ed3c5e935666edfd54a2271e05b72
     root@archiso ~ #
     ```
 
+    格式化分区：
+
+    ```
+    # mkfs -t ext4 /dev/sda1
+    # mkfs -t ext4 /dev/sda3
+    # mkfs -t ext4 /dev/sda4
+
+    # mkswap /dev/sda2
+    ```
+
 4. 挂载新分区
+
+    ```
+    # swapon /dev/sda2
+
+    # mount /dev/sda3 /mnt
+    # cd /mnt
+    # mkdir boot home
+    # mount /dev/sda1 boot
+    # mount /dev/sda4 home
+    ```
 
 5. 安装Arch
 
+    ```
+    # cd /
+    # pacstrap /mnt base base-devel
+    ```
+
 6. 生成`fstab`文件
 
-7. 初始化安装Bootloader
+    ```
+    # genfstab -p /mnt >> /mnt/etc/fstab
+    ```
 
-8. 配置
+    可以看看fstab里面的内容：
+
+    ```
+    # more /mnt/etc/fstab
+    ```
+
+7. 初始化安装Boot Loader
+
+    ```
+    # pacstrap /mnt syslinux
+    ```
+
+8. 配置安装
+
+    运行以下命令：
+
+    ```
+    # arch-chroot /mnt
+    ```
+
+    得到：
+
+    ```
+    sh-4.2#
+    ```
+    这个shell很基础，用Bash也许更好些：
+
+    ```
+    # bash
+    ```
+
+    得到：
+
+    ```
+    [root@archiso /]#
+    ```
+
+    设置语言：
+
+    ```sh
+    # nano /etc/locale.conf
+    ```
+
+    添加：
+
+    ```
+    LANG="en_US.UTF-8"
+    ```
+
+    ```sh
+    # nano /etc/locale.gen
+    ```
+
+    将下面两行前面`#`去除：
+
+    ```
+    en_US.UTF-8 UTF-8
+    de_DE.UTF-8 UTF-8
+    ```
+
+    完成语言设置：
+
+    ```
+    # locale-gen
+    ```
+
+    设置时间：
+
+    ```
+    # ln -s /usr/share/zoneinfo/<your_state>/<your_city> /etc/localtime
+    ```
+
+    比如我设置的是：
+
+    ```
+    # ln -s /usr/share/zoneinfo/Asia/Chongqing /etc/localtime
+    ```
+
+    改hostname：
+
+    ```
+    # nano /etc/hostname
+    ```
 
 9. 完成Bootloader安装
 
+    ```
+    # cd /boot/syslinux/
+    ```
+
+    打开syslinux.cfg文件，找到"comboot modules"一段：
+
+    ```
+    # more syslinux.cfg
+    ```
+
+    将其中列举的文件copy到本地，同时还要加上'libutil.c32':
+
+    ```
+    # cp /usr/lib/syslinux/bios/menu.c32 .
+    # cp /usr/lib/syslinux/bios/vesamenu.c32 .
+    # cp /usr/lib/syslinux/bios/chain.c32 .
+    # cp /usr/lib/syslinux/bios/hdt.c32 .
+    # cp /usr/lib/syslinux/bios/reboot.c32 .
+    # cp /usr/lib/syslinux/bios/poweroff.c32 .
+    # cp /usr/lib/syslinux/bios/libutil.c32 .
+    ```
+
+    一旦完成上述设置，
+
+    ```
+    # extlinux --install /boot/syslinux
+    # dd conv=notrunc bs=440 count=1 if=/usr/lib/syslinux/bios/gptmbr.bin of=/dev/sda
+    # mkinitcpio -p linux
+    ```
+
 10. 完成安装
 
+    最后，更改root密码：
+
+    ```
+    # passwd
+    ```
+
+    输入两次`exit`退回到：
+
+    ```
+    [root@archiso /]#
+    ```
+
+    umount所有的分区：
+
+    ```
+    # umount /mnt/boot
+    # umount /mnt/home
+    # swapoff /dev/sda2
+    # umount /mnt
+    ```
+
+    在重启之前最后一步，设置`/boot`分区的[BIOS](http://en.wikipedia.org/wiki/BIOS)标识为'bootable'：
+
+    ```
+    # sgdisk /dev/sda --attributes=1:set:2
+    ```
+
 11. 重启Arch
+
+    ```
+    # reboot
+    ```
+
+    重启之后会再次进入CD启动，这时，去除安装CD，再次重启：
+
+    ```
+    Devices > CD/DVD Devices > Remove disk from virtual drive
+    ```
+
+    等待一小会：
+
+    <img src="/media/files/2015/Jan/10-ArchLinux.png"><img>
+
+    Congradulations!
+
+12. 后续工作
+
+    链接网络：
+
+    ```
+    dhcpcd
+    ```
+
+    安装'sudo'：
+
+    ```
+    # pacman -S sudo
+    ```
+
+    添加'sudoer':
+
+    ```
+    # nano /etc/sudoers
+    ```
+
+    ```
+    ##
+    ## User privilege specification
+    ##
+    root ALL=(ALL) ALL
+    qiwihui ALL=(ALL) ALL
+    ```
+
+    保存，并log out：
+
+    ```
+    # exit
+    ```
+
+    以新的ID和密码重新登录。
+
+    最后，每次登录的时候自动获取ip：
+
+    ```
+    # sudo systemctl enable dhcpcd@eth0.service
+    ```
+
+这样最基本的Arch Linux就好了，Desktop Environment就不装了。
+
+
+## 0x02 参考文档
+
+- [Arch Linux Beginners' guide](https://wiki.archlinux.org/index.php/Beginners%27_guide)
+- [Arch Linux Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide)
+- [A Guide to Installing Arch in VirtualBox](http://wideaperture.net/blog/?p=3851)
