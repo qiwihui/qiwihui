@@ -1,16 +1,17 @@
-blog.daozhang.info
-===============
+daozhang.info
+====
 
-After trying many blog sites, I finally choose Github Page without database off, rich text editor. Just as simple as it can.
+After trying many blog sites, I finally settle in Github Pages, no database nor rich text editor. Just as simple as it can.
 
-###What:
+### What:
 
-Life = Math + Program + hiking + cooking...
+Life = Math + Program + Hiking + Cooking...
 
-###How:
+### How:
 
-Blog = Git + Github [Pages] + Jekyll + Markdown
+Blog = Git + Github Pages + Jekyll + Markdown
 
-###Contact me:
+### Contact me:
 
-* Email:qwh005007@gmail.com
+* Email: up.chaos@gmail.com
+* Facebook: [Weihui Qiu](https://www.facebook.com/weihui.qiu)
