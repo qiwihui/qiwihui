@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dockerize Scrpay based on MongoDB
+title: Dockerize Scrapy based on MongoDB
 description: Make an dockerfile that create an image with Scrapy, MongoDB based on Python2
 category: ProgrammingThinking
 tags: scrapy, mongo, docker, dockerfile
