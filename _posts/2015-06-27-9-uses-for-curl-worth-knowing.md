@@ -54,7 +54,7 @@ curl http://echo.httpkit.com
 **请求**  
 
 ```
-curl http://echo.httpkit.com
+curl http://echo.httpkit.com//path?query=string
 ```
 
 **响应** 

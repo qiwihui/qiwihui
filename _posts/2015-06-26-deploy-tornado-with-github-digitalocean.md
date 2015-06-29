@@ -48,7 +48,7 @@ tags: tornado, digitalocean, nginx, supervisor, github, git
 自动部署的好处就是省去了每次都要上服务器。可以参见之前的一篇博客
 [使用 Git Hooks 实现项目自动部署](http://daozhang.info/deploy-projects-with-git-hooks/) 来创建这个远程的git server。
 
-这里，我们要先fork [zhu327/rss](https://github.com/zhu327/rss) 这个项目，然后用`git init --bare rss rss.git`生成原来
+这里，我们要先fork [zhu327/rss](https://github.com/zhu327/rss) 这个项目，然后用`git clone --bare rss rss.git`生成原来
 项目的裸仓库，然后将其复制到服务器上。我使用的是`~/remoteRepo/rss.git`做为git server，`~/deployment/rss`做为真正
 生产的代码文件目录。
 
