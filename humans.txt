@@ -1,0 +1,9 @@
+/* AUTHOR */
+    Name: Chris Qiu
+    Contact: qwh005007 [at] gmail.com
+    From: China
+
+/* SITE */
+    Language: English, Chinese
+    Doctype: HTML5
+    Tools: Vim

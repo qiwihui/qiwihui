@@ -1,35 +1,43 @@
-<!doctype html>
-<html>
-<head>
-  <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
-  <title>{{ page.title }} - {{ site.title }}</title>
-  {% include head.html %}
-</head>
-<body>
-    <div class="wrap">
-        {% include blog-masthead.html %}
-        <div class="container">
-            <div class="blog-post single">
-                <h2 class="blog-post-title centered">{{ page.title }}</h2>
-                <p class="blog-post-meta single">
-                Postd on <strong>{{ page.date | date_to_string }}</strong> by <a href="/about.html">{{ site.signoff }}</a>
-                    <br>
-                    Category: {{ page.category }}
-                </p>
-                <div class="blog-post-content">
-                    {{ content }}
-                    {% if page.tags %}
-                        <p class="blog-post-meta footer-meta">Tags: {{ page.tags }}</p>
-                    {% else %}
-                        <p class="blog-post-meta footer-meta">Tags: none</p>
-                    {% endif %}
-                </div>
-                <div class="wall"></div>
-                {% include disqus.html %}
+---
+layout: default
+---
 
-            </div>
-        </div>
-        {% include footer.html %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+    <div class="meta">
+        {{ content | number_of_words }} words &mdash; written on {{ page.date | pretty }} by <a href="/about/">Chris Qiu</a>.
     </div>
-</body>
-</html>
+  {{ content }}
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | pretty }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="content">
+  <br>
+  <!--a href="#" class="comment" onclick="return false;">Click to comment!</a-->
+  <div id="disqus_ithread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = "daozhanginfo";
+      var disqus_identifier = '{{ page.guid }}';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>

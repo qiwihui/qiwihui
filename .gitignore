@@ -1,4 +1,18 @@
+# Folders to ignore
 _site
-.swp
-.DS_Store
 _temposts
+
+# OS or Editor folders
+.DS_Store
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~

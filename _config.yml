@@ -1,44 +1,48 @@
-# general
-title:            "daozhang.info"
-description:      "Qiwihui's page"
-url:              "http://daozhang.info"
-signoff:          "Chris Qiu"
-disqus_shortname: "daozhanginfo"
-facebook_appid:   ""
-google_analytics: ""
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+    extensions:
+        - footnotes
 
-links:
-  - name:         blog
-    url:          /
-  - name:         rss
-    url:          /feed.xml
-  - name:         about
-    url:          /about.md
-  - name:         geek
-    url:          /about.html
+# Permalinks
+permalink: pretty
 
-highlighter:      pygments
-permalink:        /:title
-markdown:         rdiscount
-paginate:         8
+# Allows custom plugins to run
+safe: false
 
-# Where things are
-collections:      null
+# Setup
+title: Qiwihui
+tagline: "chris.qiu's Thoughts and Writings."
+sidebar_description: "programming, lifehacking and mathematics"
 
-# Handling Reading
-keep_files:       [".git", ".svn"]
-encoding:         "utf-8"
-markdown_ext:     "markdown,mkdown,mkdn,mkd,md"
+meta_description: "All things web, mathematics and programming."
+keywords: [Programming, Python, Golang, Mathematics]
 
-# Filtering Content
-show_drafts:      null
-limit_posts:      0
-future:           true
-unpublished:      false
+url: http://daozhang.info
+baseurl: /
+encoding: utf-8
 
-# Conversion
-# markdown:       kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - _config.yml
 
-# Serving
-detach:           false
-baseurl:          "" # does not include hostname
+author:
+    name: 'Chris Qiu'
+    url: http://daozhang.info
+    email: 'qwh005007@gmail.com'
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/404.html"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+gems:
+  - jekyll-redirect-from

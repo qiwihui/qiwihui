@@ -1,9 +1,27 @@
 ---
-layout: index
+layout: default
+title: Home
 ---
 
-<ul class="ul-list">
-    {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a><small class="datetime">{{ post.date | date_to_string }}</small></li>
-    {% endfor %}
-</ul>
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <div class="meta">
+        {{ post.content | number_of_words }} words &mdash; written on {{ post.date | pretty }}.
+    </div>
+
+    <div class="summary">
+	{% if post.summary %}
+            {{ post.summary | markdownify }}
+	{% endif %}
+    </div>
+
+  </div>
+  {% endfor %}
+</div>

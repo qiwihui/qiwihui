@@ -16,7 +16,7 @@ tags: Raspberry Pi, wifi
 在Mac上打开命令行终端，输入`arp -a`命令，可以看到树莓派的ip地址为 `192.168.199.199`. 
 当然也可以从路由器后台看到这个IP地址.
 
-```shell
+```bash
 $ arp -a
 ? (169.254.99.51) at (incomplete) on en0 [ethernet]
 hiwifi.lan (192.168.199.1) at d4:ee:7:20:18:6e on en0 ifscope [ethernet]
@@ -27,7 +27,7 @@ raspberrypi.lan (192.168.199.199) at f0:f6:1c:af:7a:28 on en0 ifscope [ethernet]
 
 输入"ssh pi@192.168.199.199", 根据要求输入密码，默认为`raspberry`.
 
-```shell
+```bash
 $ ssh pi@192.168.199.199
 pi@192.168.199.199s password: 
 Linux qiwihuisrpi 3.18.7+ #755 PREEMPT Thu Feb 12 17:14:31 GMT 2015 armv6l
@@ -47,13 +47,13 @@ Last login: Fri Apr 17 14:45:28 2015 from 192.168.199.186
 
 编辑这个文件：
 
-```shell
+```bash
 $ sudo nano /etc/network/interfaces
 ```
 
 添加如下内容：
 
-```shell
+```bash
 auto lo
 iface lo inet loopback
 
@@ -80,13 +80,13 @@ iface default inet dhcp
 
 编辑文件`wpa_supplicant.conf`设置连接的网络热点.
 
-```shell
+```bash
 $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 为：
 
-```shell
+```bash
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
