@@ -1,4 +1,4 @@
-daozhang.info
+qiwihui.com
 =============
 
 After trying many blog sites, I finally settled in Github Pages, no database nor rich text editor. 
