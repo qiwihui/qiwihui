@@ -33,12 +33,11 @@ For further infomation, visit [RubyGems Mirror - Taobao](https://ruby.taobao.org
 
 ### Contact me:
 
-You can reach me by dropping me a mail or just sending a tweet @upchaos.
+You can reach me by dropping me a mail or open a PR against this project. Anyway, a tweet is welcome.
 
 * Email: qwh005007@gmail.com
 * Twitter: @upchaos
-* Facebook: [Weihui Qiu](https://www.facebook.com/weihui.qiu)
 
-### ??
+### License
 
 All the meterials without special comments, will be published under [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh). And I think it is really an excellent idea.
