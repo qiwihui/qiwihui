@@ -35,7 +35,7 @@ For further infomation, visit [RubyGems Mirror - Taobao](https://ruby.taobao.org
 
 You can reach me by dropping me a mail or open a PR against this project. Anyway, a tweet is welcome.
 
-* Email: qwh005007@gmail.com
+* Email: qiwihui@qiwihui.com
 * Twitter: @upchaos
 
 ### License
