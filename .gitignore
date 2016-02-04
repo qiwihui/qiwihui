@@ -17,3 +17,4 @@ _temposts
 *.zip
 *.vi
 *~
+.sass-cache

@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Me?
+title: About me
+permalink: /about/
 ---
 
-Enjoying making things with Mathematics, C and Python.
+Python web developer.
 
-Check out my open source efforts on [github](https://github.com/qiwihui). 
-Want to get in touch? Feel free to drop me an [email](mailto:qiwihui@qiwihui.com).
+Check out my open source efforts on:
+{% include icon-github.html username="qiwihui" %}
+Want to get in touch? Feel free to drop me an [Email](mailto:qiwihui@qiwihui.com).
