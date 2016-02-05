@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 翻译:理解Python索引和切片
+title: 翻译 - 理解python索引和切片
 description: Python索引和切片
 category: Translate
 commentIssueId: 8

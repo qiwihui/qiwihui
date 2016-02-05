@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown tips and GFM
+title: Some markdown tips and Github Flavored Markdown
 description: Markdown tips and github flavored markdown
 category: programthinking
 tags: markdown, GFM

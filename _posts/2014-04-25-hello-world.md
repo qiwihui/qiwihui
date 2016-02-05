@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World!
+title: Hello World! The first of everything
 description: First hello world post.
 category: programthinking
 tags: helloworld, python

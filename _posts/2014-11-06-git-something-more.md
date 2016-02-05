@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git something more
+title: A small summary, just git something more
 description: some small git tips
 category: ProgramThinking
 tags: git

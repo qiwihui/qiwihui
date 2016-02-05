@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A card game
+title: A quite simple card game implemented in C language 
 description: A small card game.
 category: programthinking
 tags: cardgame, c

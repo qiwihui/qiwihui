@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 扇贝300天小记
+title: 扇贝300天小记:坚持的力量
 description: How to do it and what can it bring to you.
 category: herelife
 tags: shanbay, englishwords

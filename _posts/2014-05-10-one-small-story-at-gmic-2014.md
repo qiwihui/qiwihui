@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: One small story at GMIC 2014
+title: One small story by Fan Zhang at GMIC 2014
 description: One small story at GMIC 2014 with song - The Brightest Star in the Sky
 category: herelife
 tags: songs, GMIC, MidiMusicFestival
@@ -12,7 +12,7 @@ I attended GMIC 2014 in Beijing at May 5<sup>th</sup> and May 6<sup>th</sup>.
 GMIC is short for Global Mobile Internet Conference, and it is a really huge conference.
 I just want to share a small story I heard in the conference.
 
-In WeTalk Stage, one of the 8 stages, Zhang Fan, who is the brain behind
+In WeTalk Stage, one of the 8 stages, Fan Zhang, who is the brain behind
 [Midi Modern Music Festival](http://en.wikipedia.org/wiki/Midi_Music_Festival), gave us a speech: Listen to the Original Where Music is Eternal.
 In the speech, he shared us a song named "The Brightest Star in the Sky" of 2013 Shanghai Midi Festival
 (watch it [here](https://www.youtube.com/watch?v=Z7qgMJCmAHs)), and told us a story about the boy
