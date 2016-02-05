@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 翻译-为什么python中索引从0开始
+title: 翻译:为什么python中索引从0开始
 description: 为什么python中索引从0开始
 category: Translate
 commentIssueId: 7

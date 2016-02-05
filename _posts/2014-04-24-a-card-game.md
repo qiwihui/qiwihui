@@ -24,7 +24,7 @@ stack. The cards held by the players works like a queue. Cards that first in
 will fisrt out. (As usual, we will insert the cards we gains to the buttom of 
 the  cards.) So we onstruct bellow Queue type:
 
-```c
+``` c
 typedef struct Queue
 {
   int *content;  // all cards
@@ -46,7 +46,7 @@ We construct five basic method for the queue:
 And the list works like a stack, as the cards that fist in will be out
 last. So the structure like below:
 
-```c
+``` c
 typedef struct Stack
 {
   int *content;
@@ -65,7 +65,7 @@ Then What we need to do is wash the cards and play the game. The
 array_shuffle method descripe how to wash the cards, in fact, randomly. So we
 can use
 
-```c
+``` c
 srand(time(NULL));
 ```
 

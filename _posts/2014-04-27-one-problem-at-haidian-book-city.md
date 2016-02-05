@@ -49,7 +49,8 @@ sequence starts as follows:
 *d, 1d, 111d, 311d, 13211d, 111312211d, 31131122211d, ...*
 
 As example in the following table.
-    <p>
+
+<p>
     <table style="margin-right: auto; white-space: nowrap; width: auto;">
       <tr style="Text">
         <td align="left"><b><i>d</i></b></td>
@@ -71,7 +72,8 @@ As example in the following table.
         <td align="left"><a href="http://oeis.org/A006715">A006715</a></td>
         <td align="left">3, 13, 1113, 3113, 132113, 1113122113, 311311222113, ...</td>
       </tr>
-    </table></p>
+    </table>
+</p>
 
 Here, *d* equals 3.
 
@@ -90,7 +92,8 @@ The fouth column in the table says what other
     n<sup>th</sup> member in the sequence, then L<ins>n+1</ins>/L<ins>n</ins> to
       a limitation when n to infinity. It is 1.303577269... , which we call it
       as **Conway Constant**.
-    <p>
+
+<p>
     <table style="margin-right: auto; white-space: nowrap; width: auto;">
       <tbody>
         <tr>
@@ -653,7 +656,7 @@ The fouth column in the table says what other
         </tr>
       </tbody>
     </table>
-    </p>
+</p>
 
 Those 92 subsequence is so basic that is constructs every member in the look-and-say
     sequence. Just like 92 elements. [Here](http://mathworld.wolfram.com/CosmologicalTheorem.html)
