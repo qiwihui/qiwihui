@@ -1,49 +1,45 @@
 ## Dependencies
 #markdown: redcarpet
-#highlighter: pygments
+highlighter: pygments
 #redcarpet:
 #    extensions:
 #        - footnotes
 #
 ## Permalinks
-#permalink: pretty
+permalink: pretty
 #
 ## Allows custom plugins to run
 #safe: false
 #
 ## Setup
-#title: Qiwihui
-#tagline: "chris.qiu's Thoughts and Writings."
-#sidebar_description: "programming, lifehacking and mathematics"
+tagline: "qiwihui's thoughts and writings."
+sidebar_description: "programming, lifehacking and mathematics"
 #
 #meta_description: "All things web, mathematics and programming."
 #keywords: [Programming, Python, Golang, Mathematics]
+encoding: utf-8
 #
-#url: http://daozhang.info
-#baseurl: /
-#encoding: utf-8
-#
-#exclude:
-#    - Gemfile
-#    - Gemfile.lock
-#    - _config.yml
-#
-#author:
-#    name: 'Chris Qiu'
-#    url: http://daozhang.info
-#    email: 'qiwihui@qiwihui.com'
-#
-#sitemap:
-#    file: "/sitemap.xml"
-#    exclude:
-#        - "/404.html"
-#        - "/feed.xml"
-#        - "/feed/index.xml"
-#    include_posts:
-#        - "/index.html"
-#    change_frequency_name: "change_frequency"
-#    priority_name: "priority"
-#
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - _config.yml
+
+author:
+    name: 'qiwihui'
+    url: https://qiwihui.com
+    email: 'qiwihui@qiwihui.com'
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/404.html"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
 #gems:
 #  - jekyll-redirect-from
 
