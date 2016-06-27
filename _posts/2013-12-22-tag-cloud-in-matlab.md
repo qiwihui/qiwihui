@@ -7,6 +7,7 @@ tags: matlab, tagcloud
 ---
 
 Here is a 3D tag cloud demo in Matlab. Actually this can be easily created by using HTML5 canvas. See following:
+<!--more-->
 
 <img src="/media/files/2013/Dec/22-tagcloudinhtml5.jpg"></img>
 

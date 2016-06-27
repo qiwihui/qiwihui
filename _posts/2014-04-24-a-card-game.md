@@ -9,15 +9,16 @@ tags: cardgame, c
 Here I am going to implement a game process using python and C. I have no
 idea about its name in English. I will call it as PDT, the same as the project
 name.
+<!--more-->
 
-##**0x00 Description**
+## **0x00 Description**
 
 In the game, each player will hold half of all cards in disorder, and they
 will cast one card by turn to compose a list card after card. If the list have two cards
 with the same number, the player will gain the cards between them. The game
 ends once one of the players has no cards.
 
-##**0x01 Analysis**
+## **0x01 Analysis**
 
 As we can see. the game contains two basic data structure: queue and
 stack. The cards held by the players works like a queue. Cards that first in
@@ -81,7 +82,7 @@ as a replacement. It is what I did.
 
 The project is here: PDT2(https://github.com/Qiwihui/PDT2)
 
-##**0x02 Further**
+## **0x02 Further**
 
 We can finally see the whole process that each player cast and gain cards.
 But will it end in the last or it maybe stuck at a loop? Any idea, please

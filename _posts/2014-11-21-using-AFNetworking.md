@@ -8,6 +8,7 @@ tags: swift, AFNetworking
 ---
 
 如何在Swift项目中使用[AFNetworking](https://github.com/AFNetworking/AFNetworking)框架？
+<!--more-->
 
 1. 安装[CocoaPods](http://cocoapods.org/)
 

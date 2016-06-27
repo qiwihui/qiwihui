@@ -6,9 +6,8 @@ category: ProgramThinking
 tags: git, git hooks, deploy
 ---
 
-## 0x00 前言
-
 自动化部署解放双手，发展生产力，更重要的是可以减少部署过程中的错误操作。
+<!--more-->
 
 之前使用git做为我博客的版本控制，使用Github Pages托管我的博客，所以部署方面都交给了github，
 但是当我要部署另一个web应用时，显然要部署在自己的VPS上，把VPS做为git服务器的同时，每次push

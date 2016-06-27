@@ -9,8 +9,9 @@ tags: look-and-say, Conway
 Today, I just came by Haidian Book City as usual at Haidian dist in
     Beijing. and I found the problem hung on the wall nearby. It is very
     interesting and I want to share it.
+<!--more-->
 
-###**0x00 Problem**
+## **0x00 Problem**
 
 Here is one picture of it.
 
@@ -28,7 +29,7 @@ Once you finish it, you will get the second as below:
  > *Guess a television series by the following numbers, and you will get an interview.*
  > *3113112211322112 / 311311*
 
-###**0x01 Solution**
+## **0x01 Solution**
 
 Yes, as you may guess, it is one look-and-say sequence(sequence [A006715](http://oeis.org/A006715) in 
 [OEIS](http://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences).
@@ -666,7 +667,7 @@ Those 92 subsequence is so basic that is constructs every member in the look-and
 
 **Br**eaking **Ba**d. That is the answer.
 
-###**0x02 More**
+## **0x02 More**
 
 That is perfect from the begining to the end. Many thanks to the problem
     maker, and the screenwriters, also every

@@ -7,6 +7,7 @@ tags: arch linux; virtualbox, MAC OS
 ---
 
 简单地写一下在VirtualBox上安装Arch Linux的过程，以此为在PC上安装做准备。在PC上安装的过程和下面描述的基本一致。
+<!--more-->
 
 ##0x00 准备
 

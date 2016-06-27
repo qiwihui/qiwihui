@@ -6,12 +6,11 @@ category: ProgramThinking
 tags: tornado, digitalocean, nginx, supervisor, github, git
 ---
 
-##  前言
-
 一直在想把微信的公众号的文章导出为RSS阅读，方便阅读和减少对微信的依赖，后来看到 
 [zhu327/rss](https://github.com/zhu327/rss) 这个项目，这是一个用来生成微博，微信公众号，知乎日报 RSS 的Web APP。
 但是这个项目的demo部署在Red Hat的openshift上，
 囿于对这个cloud的操作不是很熟，所以想着把这个项目重新部署到自己在DigitalOcean的机器上，就fork了这个项目开始啦！
+<!--more-->
 
 以下涉及到的内容有：
 

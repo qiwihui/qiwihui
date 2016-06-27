@@ -8,6 +8,7 @@ tags: songs, 5m/s
 
 I listened to the song *One more time, One more chance* inadvertently, and it feels good. 
 It reminds me of the movie shared with the same name，a story about distance.
+<!--more-->
 
 If I travel in 5 centimeters per second for ten year,
 In math, I will get `5cm x (10 x 365 + 2~3) x 24 x 24 x 60`.

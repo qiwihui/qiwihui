@@ -1,24 +1,27 @@
 ---
 layout: post
-title: 网站开启https 
+title: 使用免费的let’s encrypt证书为网站开启https
 description: enable https for website
 category: ProgramThinking
 tags: https, Let’s Encrypt, Nginx
 ---
 
-### HTTPS简介
+这篇博客将介绍使用免费的let's encrypt证书, 为网站开启https。
+<!--more-->
+
+## HTTPS简介
 
 (https, http over ssl)
 
-###  为啥要用Let's Encrypt
+## 为啥要用Let's Encrypt
 
 (free, easy)
 
-### Let's Encrypt介绍
+## Let's Encrypt介绍
 
 (directory tree)
 
-### 安装实践
+## 安装实践
 
 我使用的是Debian 7，其他系统类似。
 
@@ -132,8 +135,7 @@ Let’s Encrypt 的有效期只有90天，官方客户端不支持持续更新�
 
 上述配置会再每周一凌晨2:30执行`letsencrypt-auto renew`，在2点35分重新加载nginx配置，同时更新日志会在写在`/var/log/le-renewal.log`中。
 
-
-### 总结
+## 总结
 
 Let's Encrypt TLS/SSL is free.
 

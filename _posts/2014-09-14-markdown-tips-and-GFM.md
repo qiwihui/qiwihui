@@ -6,12 +6,9 @@ category: programthinking
 tags: markdown, GFM
 ---
 
-Markdown tips
-======
-
 Refer [Issue#4](https://github.com/qiwihui/qiwihui.github.io/issues/4) to see more details about write markdown code in markdown.
-
-markdown: easy-to-write, easy-to-read, plain text format
+markdown: easy-to-write, easy-to-read, plain text format.
+<!--more-->
 
 Basic:
 ------

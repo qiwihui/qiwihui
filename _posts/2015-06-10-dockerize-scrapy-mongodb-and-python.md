@@ -7,6 +7,7 @@ tags: scrapy, mongo, docker, dockerfile
 ---
 
 这篇文章的目的是创建一个dokcer镜像用来做为使用爬虫框架Scrapy的环境。
+<!--more-->
 
 ## Why
 

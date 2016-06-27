@@ -7,10 +7,9 @@ commentIssueId: 8
 tags: python, indices, slicing
 ---
 
-原文在[这儿](http://forums.udacity.com/questions/2017002/python-101-unit-1-understanding-indices-and-slicing)
-
 许多初次接触Python的人对于索引都会有同样的反应：这太奇怪了。在Python的列表，字符串和条件语句中都充斥着索引，但在我们习惯他们之前，
 这些都会是我们程序的错误来源。因此，让我们硬着头皮上吧！
+<!--more-->
 
 这片文章会写得很慢，为了解释一些基础和默认的东西。
 
@@ -194,3 +193,5 @@ a[::-3] = a[-1:-len(a)-1:-3] = '9630'
 ```
 
 Good luck!
+
+原文在[这儿](http://forums.udacity.com/questions/2017002/python-101-unit-1-understanding-indices-and-slicing)

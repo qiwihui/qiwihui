@@ -7,6 +7,7 @@ tags: git
 ---
 
 整理自[手把手教你用git](http://www.cnblogs.com/tugenhua0707/p/4050072.html).
+<!--more-->
 
 1. `git reflog` 查看历史记录的版本号id
 2. Discard:

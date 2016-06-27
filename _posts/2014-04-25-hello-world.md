@@ -7,6 +7,7 @@ tags: helloworld, python
 ---
 
 Hello world, hello to my new blog! Before the django blog was published, I will be here to blog myself.
+<!--more-->
 
 There is wikipedia page [Here](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples), which 
 contains a list of hello-world program examples. Simple or complex, these program is a overview of some 

@@ -6,11 +6,12 @@ category: herelife
 tags: songs, GMIC, MidiMusicFestival
 ---
 
-###**0x00**
-
 I attended GMIC 2014 in Beijing at May 5<sup>th</sup> and May 6<sup>th</sup>.
 GMIC is short for Global Mobile Internet Conference, and it is a really huge conference.
 I just want to share a small story I heard in the conference.
+<!--more-->
+
+## **0x00**
 
 In WeTalk Stage, one of the 8 stages, Fan Zhang, who is the brain behind
 [Midi Modern Music Festival](http://en.wikipedia.org/wiki/Midi_Music_Festival), gave us a speech: Listen to the Original Where Music is Eternal.
@@ -28,7 +29,7 @@ This is what music means that something in your deep heart and express your real
 
 I would like to go to Midi festival the next time in Beijing, and listen to this song.
 
-###**0x01**
+## **0x01**
 
 [Here](http://smileboxx.blogspot.com/2013/08/escape-plan-brightest-star-in-night-sky.html) is the song
 "The Brightest Star in the Sky" in English. Hope you like it.

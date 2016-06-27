@@ -7,10 +7,9 @@ commentIssueId: 7
 tags: python, indexing
 ---
 
-原文在[这儿](http://forums.udacity.com/questions/100086491/why-does-indexing-begin-at-0?page=1&focusedAnswerId=100086607#100086607)。
-
 在Python中字符串索引从0开始而不是从1开始是合乎逻辑的选择，因为python是用C语言写的，做为C的主要数据结构，数组是从0开始索引的。这在C中
 是很基础的，以至于如果改变索引从1开始将会需要大量的工作。
+<!--more-->
 
 ** 1) 那么下一个问题：为什么在C中索引从0开始？**
 
@@ -87,3 +86,5 @@ Javascript和其它许多语言，[看这](http://en.wikipedia.org/wiki/List_of_
 比如，二叉查找树从1开始，所以，在Python中，我们可以使用一个从0开始的数组活着列表，然后忽略第一个元素。在这篇
 [博客](http://forums.udacity.com/questions/2006322/where-python-is-illogical?page=1&focusedAnswerId=2022504#2022504)中，其中描述了我们可以强制C中的数组
 从1开始索引，以及C开发者社区是怎样收到一本趋势读者也这样做的书。
+
+原文在[这儿](http://forums.udacity.com/questions/100086491/why-does-indexing-begin-at-0?page=1&focusedAnswerId=100086607#100086607)。
