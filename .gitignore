@@ -1,7 +1,7 @@
 # Folders to ignore
 _site
-_temposts
 .idea
+_temps
 
 # OS or Editor folders
 .DS_Store
