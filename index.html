@@ -4,11 +4,11 @@ layout: default
 
 <div class="home">
 
-    <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading" style="text-align: center;">Posts</h1>
 
     <ul class="post-list">
         {% for post in site.posts %}
-        <div class="post-preview">
+        <div class="post-preview" style="padding-bottom: 18px">
             <li>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3><b>{{ post.date | date: "%b %d, %Y" }};</b>
                 {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
@@ -17,12 +17,14 @@ layout: default
                 {% endif %}
             </li>
         </div>
-        <hr>
+        <!--<hr>-->
         {% endfor %}
     </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a> /
+
+    <p class="rss-subscribe" style="text-align: center">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a> /
         Powered by <a href="http://jekyllrb.com/">Jekyll</a> /
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> /
-        <a href="/about/">About</a></p>
+        <a href="/about/">About</a>
+    </p>
 
 </div>
