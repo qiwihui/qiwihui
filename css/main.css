@@ -116,7 +116,7 @@ li p.first {
   display: inline-block; }
 
 ul, ol {
-  padding-left: 30px; }
+  padding-left: 25px; }
 
 ul :first-child, ol :first-child {
   margin-top: 0; }
@@ -126,6 +126,9 @@ ul :last-child, ol :last-child {
 
 ul .post-preview {
   list-style: none;
+}
+.post-list{
+  padding-left: 0px;
 }
 
 /*ul .post-preview li:before {*/
