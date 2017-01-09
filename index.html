@@ -1,30 +1,12 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-
-    <h1 class="page-heading" style="text-align: center;">Posts</h1>
-
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <div class="post-preview" style="padding-bottom: 18px">
-            <li>
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3><b>{{ post.date | date: "%b %d, %Y" }};</b>
-                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-                {% if post.content contains site.excerpt_separator %}
-                <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
-                {% endif %}
-            </li>
-        </div>
-        <!--<hr>-->
-        {% endfor %}
-    </ul>
-
-    <p class="rss-subscribe" style="text-align: center">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a> /
-        Powered by <a href="http://jekyllrb.com/">Jekyll</a> /
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> /
-        <a href="/about/">About</a>
-    </p>
-
+<div id="wrapper">
+  <h1>qiwihui</h1>
+  <h2>Seek, Think &amp; Share&nbsp;</h2>
+  <p><a href="https://qiwihui.com/blog/index.html">Blog</a></p>
+  <p><a href="https://twitter.com/upchaos" target="_blank">Twitter</a></p>
+  <p><a href="https://github.com/qiwihui" target="_blank">Github</a></p>
 </div>
+<canvas></canvas>

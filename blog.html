@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading" style="text-align: center;">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <div class="post-preview" style="padding-bottom: 18px">
+      <li>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3><b>{{ post.date | date: "%b %d, %Y" }};</b>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        {% if post.content contains site.excerpt_separator %}
+        <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+        {% endif %}
+      </li>
+    </div>
+    <!--<hr>-->
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe" style="text-align: center">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via
+    RSS</a> /
+    Powered by <a href="http://jekyllrb.com/">Jekyll</a> /
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> /
+    <a href="/about/">About</a>
+  </p>
+
+</div>
+

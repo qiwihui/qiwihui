@@ -13,7 +13,7 @@ permalink: pretty
 #
 ## Setup
 tagline: "qiwihui's thoughts and writings."
-sidebar_description: "programming, lifehacking and mathematics"
+sidebar_description: "code, life and thinking"
 #
 #meta_description: "All things web, mathematics and programming."
 #keywords: [Programming, Python, Golang, Mathematics]
@@ -34,7 +34,7 @@ sitemap:
     exclude:
         - "/404.html"
         - "/feed.xml"
-        - "/feed/index.xml"
+        - "/atom.xml"
     include_posts:
         - "/index.html"
     change_frequency_name: "change_frequency"
@@ -50,7 +50,7 @@ email: qiwihui@qiwihui.com
 description: > # this means to ignore newlines until "baseurl:"
   Let's rock python!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://qiwihui.com" # the base hostname & protocol for your site
+url: "https://blog.qiwihui.com" # the base hostname & protocol for your site
 twitter_username: upchaos
 github_username:  qiwihui
 
