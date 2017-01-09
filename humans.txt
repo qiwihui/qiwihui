@@ -1,6 +1,6 @@
 /* AUTHOR */
     Name: Chris Qiu
-    Contact: qwh005007 [at] gmail.com
+    Contact: qiwihui [at] qiwihui.com
     From: China
 
 /* SITE */
