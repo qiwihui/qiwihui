@@ -1,59 +1,81 @@
-## Dependencies
-#markdown: redcarpet
-highlighter: rouge
-#redcarpet:
-#    extensions:
-#        - footnotes
-#
-## Permalinks
-permalink: pretty
-#
-## Allows custom plugins to run
-#safe: false
-#
-## Setup
-tagline: "qiwihui's thoughts and writings."
-sidebar_description: "code, life and thinking"
-#
-#meta_description: "All things web, mathematics and programming."
-#keywords: [Programming, Python, Golang, Mathematics]
-encoding: utf-8
-#
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - _config.yml
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
 
-author:
-    name: 'qiwihui'
-    url: https://qiwihui.com
-    email: 'qiwihui@qiwihui.com'
+# Site
+title: QIWIHUI
+subtitle: Don't be evil or greedy.
+description: Don't be evil or greedy.
+author: qiwihui
+language: zh-CN
+timezone:
 
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/404.html"
-        - "/feed.xml"
-        - "/atom.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://qiwihui.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 
-#gems:
-#  - jekyll-redirect-from
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
+# Writing
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace:
 
-# Site settings
-title: qiwihui
-email: qiwihui@qiwihui.com
-description: > # this means to ignore newlines until "baseurl:"
-  Let's rock python!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.qiwihui.com" # the base hostname & protocol for your site
-twitter_username: upchaos
-github_username:  qiwihui
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
 
-# Build settings
-markdown: kramdown
-excerpt_separator: <!--more-->
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 0
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+#RSS订阅
+plugin:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  hub:
+  content: true
+## Themes: https://hexo.io/themes/
+theme: maupassant
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type:
