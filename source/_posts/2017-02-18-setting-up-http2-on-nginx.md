@@ -6,7 +6,7 @@ category: programthinking
 tags: nginx, http2
 ---
 
-我的博客已经支持了 HTTP/2, 在此将介绍如何在 ginx 上设置 HTTP/2 及相关注意事项(坑)。
+我的博客已经支持了 HTTP/2, 在此将介绍如何在 Nginx 上设置 HTTP/2 及相关注意事项(坑)。
 
 ## 前提
 
@@ -27,7 +27,7 @@ HTTP/2 安装需要以下前提：
 |Debian 7.0	                    |1.0.1e	            |NPN|
 |Debian 8.0	                    |1.0.1k	            |NPN|
 
-所以要么升级使用带有 OpenSSL 1.0.2 Ubuntu 16.04 LTS，或者从头编译 Nginx.
+所以要么升级使用带有 OpenSSL 1.0.2 的 Ubuntu 16.04 LTS，要么从头编译 Nginx.
 
 我的服务器系统是 Debian 7, OpenSSL 版本是1.0.1t, 所以需要重新编译 Nginx 和 OpenSSL.
 
@@ -92,8 +92,7 @@ TLS SNI support enabled
 configure arguments: --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --modules-path=/usr/lib/nginx/modules --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --user=nginx --group=nginx --with-file-aio --with-threads --with-ipv6 --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_ssl_module --with-cc-opt='-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -Wl,--as-needed -pie'
 ```
 
-上述配置用已经有 `--with-http_v2_module` 选项了，还需要在上述配置参数后面加上 `--with-openssl=/path/to/your/openssl-1.1.0e` 指向
-新版本的 OpenSSL 文件夹
+上述配置用已经有 `--with-http_v2_module` 选项了，还需要在上述配置参数后面加上 `--with-openssl=/path/to/your/openssl-1.1.0e` 指向新版本的 OpenSSL 文件夹
 
 ```bash
 ./configure --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --modules-path=/usr/lib/nginx/modules --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --user=nginx --group=nginx --with-file-aio --with-threads --with-ipv6 --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_ssl_module --with-cc-opt='-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -Wl,--as-needed -pie' --with-openssl=/home/qiwihui/openssl-1.1.0e
@@ -132,7 +131,7 @@ Configuration summary
 # sudo make install
 ```
 
-之后就可以看到已经安装好了新版 Nginx了
+之后就可以看到已经安装好了新版 Nginx了。
 
 ### 配置
 
@@ -186,11 +185,11 @@ echo | openssl s_client -alpn h2 -connect qiwihui.com:443 | grep ALPN
 
 同时还可以对 HTTP/2 进行优化，请参见[6]，不赘述了。
 
-## 参考
+## 参考[]
 
-[[1]. Supporting HTTP/2 for Google Chrome Users](https://www.nginx.com/blog/supporting-http2-google-chrome-users/)
-[[2]. 为什么我们应该尽快支持 ALPN？](https://imququ.com/post/enable-alpn-asap.html)
-[[3]. Nginx官方教程 INSTALLING NGINX OPEN SOURCE](https://www.nginx.com/resources/admin-guide/installing-nginx-open-source/)
-[[4]. serverfault问题: Nginx configured with http2 doesn't deliver HTTP/2](http://serverfault.com/a/733556/296724)
-[[5]. TLS 1.2 Cipher Suite Black List](https://http2.github.io/http2-spec/#BadCipherSuites)
-[[6]. Optimizing Nginx for Best Performance](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04#step-10-—-optimizing-nginx-for-best-performance)
+[1]. [Supporting HTTP/2 for Google Chrome Users](https://www.nginx.com/blog/supporting-http2-google-chrome-users/)
+[2]. [为什么我们应该尽快支持 ALPN？](https://imququ.com/post/enable-alpn-asap.html)
+[3]. [Nginx官方教程 INSTALLING NGINX OPEN SOURCE](https://www.nginx.com/resources/admin-guide/installing-nginx-open-source/)
+[4]. [serverfault问题: Nginx configured with http2 doesn't deliver HTTP/2](http://serverfault.com/a/733556/296724)
+[5]. [TLS 1.2 Cipher Suite Black List](https://http2.github.io/http2-spec/#BadCipherSuites)
+[6]. [Optimizing Nginx for Best Performance](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04#step-10-—-optimizing-nginx-for-best-performance)
