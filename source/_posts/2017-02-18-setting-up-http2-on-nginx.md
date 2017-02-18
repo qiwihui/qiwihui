@@ -185,7 +185,7 @@ echo | openssl s_client -alpn h2 -connect qiwihui.com:443 | grep ALPN
 
 同时还可以对 HTTP/2 进行优化，请参见[6]，不赘述了。
 
-## 参考[]
+## 参考
 
 [1]. [Supporting HTTP/2 for Google Chrome Users](https://www.nginx.com/blog/supporting-http2-google-chrome-users/)
 [2]. [为什么我们应该尽快支持 ALPN？](https://imququ.com/post/enable-alpn-asap.html)
