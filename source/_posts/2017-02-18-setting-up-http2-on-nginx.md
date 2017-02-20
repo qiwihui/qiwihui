@@ -185,6 +185,42 @@ echo | openssl s_client -alpn h2 -connect qiwihui.com:443 | grep ALPN
 
 同时还可以对 HTTP/2 进行优化，请参见[6]，不赘述了。
 
+## 附录
+
+附录一份 Nginx 的 http/2 简单配置
+
+```bash
+server {
+        listen 443 ssl http2 default_server;
+        listen [::]:443 ssl http2 default_server;
+
+        server_name example.com www.example.com; 
+
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+        ssl_certificate     /etc/letsencrypt/live/example.com/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+
+        ssl_dhparam /path/to/your/dhparam.pem;
+        ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
+
+        ssl_prefer_server_ciphers  on;
+        add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
+        ssl_session_cache shared:SSL:5m;
+        ssl_session_timeout 1h;
+        
+        root /path/to/your/folder/;
+        index index.html;
+}
+
+server {
+
+    listen 80;
+    listen [::]:80;
+    server_name example.com www.example.com;
+    return 301 https://$server_name$request_uri;
+}
+```
+
 ## 参考
 
 [1]. [Supporting HTTP/2 for Google Chrome Users](https://www.nginx.com/blog/supporting-http2-google-chrome-users/)
