@@ -5,6 +5,13 @@ After trying many blog sites, I finally settled in Github Pages, no database nor
 Just as simple as it can when writing the markdown posts. This site is about my thoughts and writings
 in programming(mainly in python and golang), mathematics and something about my life.
 
+### 使用
+
+```bash
+npm install
+ hexo server --draft --open
+```
+
 ### Contact me:
 
 You can reach me by dropping me a mail or open a PR against this project. Anyway, a tweet is welcome.
