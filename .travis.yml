@@ -12,7 +12,7 @@ install:
 script:
 - hexo clean
 - hexo generate
-- hexo deploy --silent
+- hexo deploy
 branches:
   only:
   - master
