@@ -8,8 +8,12 @@ in programming(mainly in python and golang), mathematics and something about my 
 ### 使用
 
 ```bash
-npm install
- hexo server --draft --open
+$ npm install -g hexo
+$ git clone https://github.com/qiwihui/qiwihui.github.io.git
+$ cd blog
+$ git submodule update --init
+$ npm install
+$ hexo generate --deploy --debug
 ```
 
 ### Contact me:
