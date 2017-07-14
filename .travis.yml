@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+- 4.4.1
+before_install:
+- git config --global push.default matching
+- git config --global user.name "qiwihui"
+- git config --global user.email "qwh005007@gmail.com"
+install:
+- npm install hexo-cli -g
+- npm install hexo --save
+- npm install
+- npm install hexo-generator-feed --save
+- npm install hexo-deployer-git --save
+script:
+- hexo clean
+- hexo generate
+- hexo deploy --silent
+branches:
+  only:
+  - master
+cache:
+  directories:
+  - node_modules
+env:
+  global:
+    secure: RJpRTuygCldX2heXRuqGDY3AGj7ySwgMDwCTtcEEL/ZacyMIIhdgShtbhJUSjctGPae+JWHy540au7dwSqMPwCKmH1Muxt9glboHZ8lw+ekmcetq8sVLeEdlyUoKnDhZwjRSMrDa5440YbkS2yMUEdrg4RpK6uBRJK4rPYKKUWbnOSrftnTuqm5vkVx8k21MoEcpP7exIxWcjJMgVKBnYjTwFyLWgp+qztBoK8yC422W3BtGVARF6SyBusFx5B7xWLs3sKBfxdBG0uObTPhc810d1yNa8bTMYEUDEF1BscX3TUN4BNLKhflX221lqgZrPJmoG+MtEKSXgZxjbn2f/2HlAEzyd5r6lO0UDaHNyxWbUswFVHVblDC4wbh08NhyK2sYquL06b2qmX215NKQiq2uyyBzJT0Nsm9zZSk79v/3kkJioKk7JXKn8Wv3tyyfiI07SLM2bvs36a7sKJEmP/uDtzrp4/GOm6veBYeIc/+AqVtW+Vn6/VJMb5gpXN/qyuk29gVsBZepM3qCD6cG+xrKmNQCGhqXxopV1pjo2xlALHDqjVq/VY+Hqi1b9nMUcDn24TXjqZ2AB+aegvR8HFvqTeVoITNIZM25UF2SRXHoEaFmCTEzIY/eZWVC9g5MbsaiwPwFopKtAOUUKNikfLFfYMVz47iY6CJZf2NLlBk=

@@ -57,3 +57,10 @@ github_username:  qiwihui
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:qiwihui/qiwihui.github.io.git
+  branch: gh-pages
