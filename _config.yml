@@ -62,9 +62,12 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-#RSS订阅
+## RSS订阅
+## git deploy
 plugin:
   - hexo-generator-feed
+  - hexo-deployer-git
+
 #Feed Atom
 feed:
   type: atom
