@@ -84,5 +84,5 @@ theme: maupassant
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:qiwihui/qiwihui.github.io.git
+  repo: git@github.com:qiwihui/qiwihui.git
   branch: gh-pages
