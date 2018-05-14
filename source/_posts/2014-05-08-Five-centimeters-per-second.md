@@ -3,7 +3,7 @@ layout: post
 title: 5 centimeters per second, a song or kind of feeling
 description: A song from one movie gives a lot.
 category: 生活
-tags: songs, 5m/s
+tags: songs
 ---
 
 I listened to the song *One more time, One more chance* inadvertently, and it feels good. 

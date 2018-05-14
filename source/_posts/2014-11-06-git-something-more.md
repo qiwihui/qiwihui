@@ -3,7 +3,7 @@ layout: post
 title: A small summary, just git something more
 description: some small git tips
 category: 编程
-tags: git
+tags: Git
 ---
 
 整理自[手把手教你用git](http://www.cnblogs.com/tugenhua0707/p/4050072.html).

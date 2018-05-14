@@ -4,7 +4,7 @@ title: 翻译 - 理解python索引和切片
 description: Python索引和切片
 category: 编程
 commentIssueId: 8
-tags: python, indices, slicing
+tags: Python
 ---
 
 许多初次接触Python的人对于索引都会有同样的反应：这太奇怪了。在Python的列表，字符串和条件语句中都充斥着索引，但在我们习惯他们之前，

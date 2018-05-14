@@ -3,7 +3,7 @@ layout: post
 title: 树莓派启动时自动连接wifi
 description: 树莓派启动时自动连接wifi
 category: 编程
-tags: Raspberry Pi, wifi
+tags: Raspberry Pi
 ---
 
 这篇文章的目的是为了配置树莓派，使其在启动时自动获取静态IP.

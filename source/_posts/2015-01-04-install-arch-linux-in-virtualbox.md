@@ -3,7 +3,7 @@ layout: post
 title: 在VirtualBox安装Arch Liux初步指南
 description: VirtualBox安装Arch Liux指南
 category: 编程
-tags: arch linux; virtualbox, MAC OS
+tags: [Arch linux, Virtualbox]
 ---
 
 简单地写一下在VirtualBox上安装Arch Linux的过程，以此为在PC上安装做准备。在PC上安装的过程和下面描述的基本一致。

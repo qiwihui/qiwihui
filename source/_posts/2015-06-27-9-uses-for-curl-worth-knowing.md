@@ -3,7 +3,7 @@ layout: post
 title: 翻译 - 9个值得知道的cURL的用法
 description: 9 uses or cURL worth knowing 
 category: 编程
-tags: cURL, HTTP, httpkit.com
+tags: curl
 ---
 
 对于 HTTP 工程师和 API 设计师来说，使用命令行操作 HTTP 是非常有用的技能。[cURL](http://curl.haxx.se/)

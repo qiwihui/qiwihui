@@ -3,7 +3,7 @@ layout: post
 title: 使用Nginx，supervisor在DigitalOcean中部署tornado项目
 description: Deploy a tornado projects in production using github, DigitalOcean with nginx and supervisor 
 category: 编程
-tags: tornado, digitalocean, nginx, supervisor, github, git
+tags: [Tornado, DigitalOcean, Nginx]
 ---
 
 一直在想把微信的公众号的文章导出为RSS阅读，方便阅读和减少对微信的依赖，后来看到 

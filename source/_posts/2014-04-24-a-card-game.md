@@ -3,7 +3,7 @@ layout: post
 title: A quite simple card game implemented in C language 
 description: A small card game.
 category: 编程
-tags: cardgame, c
+tags: C
 ---
 
 Here I am going to implement a game process using python and C. I have no

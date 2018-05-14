@@ -3,7 +3,7 @@ layout: post
 title: Some markdown tips and Github Flavored Markdown
 description: Markdown tips and github flavored markdown
 category: 编程
-tags: markdown, GFM
+tags: Markdown
 ---
 
 Refer [Issue#4](https://github.com/qiwihui/qiwihui.github.io/issues/4) to see more details about write markdown code in markdown.

@@ -3,7 +3,7 @@ layout: post
 title: One problem at Haidian Book City
 description: One amazing problem at Haidian Book City, about look-and-say sequence 
 category: 数学
-tags: look-and-say, Conway
+tags: look-and-say
 ---
 
 Today, I just came by Haidian Book City as usual at Haidian dist in

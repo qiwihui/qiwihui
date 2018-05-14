@@ -3,7 +3,7 @@ layout: post
 title: 没有智能手机的第一天
 description: Without smart phones, what life will be?
 category: 生活
-tags: smartphones, plan
+tags: 生活
 ---
 
 在停止博客的一个多月时间里，我除了上班的五天白天，再加上周末出去爬山的两天，

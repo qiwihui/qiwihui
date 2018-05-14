@@ -3,7 +3,7 @@ layout: post
 title: 年度总结 - 过去的2013年
 description: A sumary of the last one year of 2013
 category: 生活
-tags: summary
+tags: 总结
 ---
 
 写在2013年到2014年还有不到一个月的时候, 对我第一年工作的状态有一个简单的描述, 每年都要给自己写一个年终总结。

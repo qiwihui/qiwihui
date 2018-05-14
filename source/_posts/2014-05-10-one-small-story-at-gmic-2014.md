@@ -3,7 +3,7 @@ layout: post
 title: One small story by Fan Zhang at GMIC 2014
 description: One small story at GMIC 2014 with song - The Brightest Star in the Sky
 category: 生活
-tags: songs, GMIC, MidiMusicFestival
+tags: songs
 ---
 
 I attended GMIC 2014 in Beijing at May 5<sup>th</sup> and May 6<sup>th</sup>.

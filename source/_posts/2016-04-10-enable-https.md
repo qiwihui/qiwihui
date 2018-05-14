@@ -3,7 +3,7 @@ layout: post
 title: 使用免费的let’s encrypt证书为网站开启https
 description: enable https for website
 category: 编程
-tags: https, Let’s Encrypt, Nginx
+tags:  [https, Let’s Encrypt, Nginx]
 ---
 
 这篇博客将介绍使用免费的let's encrypt证书, 为网站开启https。

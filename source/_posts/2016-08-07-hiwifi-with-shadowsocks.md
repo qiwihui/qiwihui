@@ -3,7 +3,7 @@ layout: post
 title: 极路由+shadowsocks翻墙
 description: use hiwifi to cross the GFW
 category: 编程
-tags: hiwifi, shadowsocks
+tags: [hiwifi, shadowsocks]
 ---
 
 翻墙折腾无止境.

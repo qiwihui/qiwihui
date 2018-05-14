@@ -3,7 +3,7 @@ layout: post
 title: Nginx服务器设置HTTP/2
 description: Nginx服务器设置 HTTP/2
 category: 编程
-tags: nginx, http2
+tags: [Nginx, http2]
 ---
 
 我的博客已经支持了 HTTP/2, 在此将介绍如何在 Nginx 上设置 HTTP/2 及相关注意事项(坑)。

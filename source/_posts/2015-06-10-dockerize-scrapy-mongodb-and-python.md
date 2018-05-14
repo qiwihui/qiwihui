@@ -3,7 +3,7 @@ layout: post
 title: Dockerizing Scrapy based on MongoDB
 description: Make an dockerfile that create an image with Scrapy, MongoDB based on Python2
 category: 编程
-tags: scrapy, mongo, docker, dockerfile
+tags: Docker
 ---
 
 这篇文章的目的是创建一个dokcer镜像用来做为使用爬虫框架Scrapy的环境。
