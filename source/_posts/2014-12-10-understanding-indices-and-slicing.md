@@ -2,7 +2,7 @@
 layout: post
 title: 翻译 - 理解python索引和切片
 description: Python索引和切片
-category: Translate
+category: 编程
 commentIssueId: 8
 tags: python, indices, slicing
 ---

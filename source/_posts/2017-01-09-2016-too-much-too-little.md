@@ -2,7 +2,7 @@
 layout: post
 title: 2016年，是忙碌而无知的一年
 description: 2016总结，太多时间在夜晚行动，没有思考的一年
-category: herelife
+category: 生活
 tags: summary, 2016
 ---
 

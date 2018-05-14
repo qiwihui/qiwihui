@@ -2,7 +2,7 @@
 layout: post
 title: 年度总结 - 过去的2013年
 description: A sumary of the last one year of 2013
-category: herelife
+category: 生活
 tags: summary
 ---
 

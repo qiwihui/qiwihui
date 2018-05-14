@@ -2,7 +2,7 @@
 layout: post
 title: 极路由+shadowsocks翻墙
 description: use hiwifi to cross the GFW
-category: ProgramThinking
+category: 编程
 tags: hiwifi, shadowsocks
 ---
 

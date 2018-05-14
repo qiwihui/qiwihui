@@ -2,7 +2,7 @@
 layout: post
 title: Nginx服务器设置HTTP/2
 description: Nginx服务器设置 HTTP/2
-category: programthinking
+category: 编程
 tags: nginx, http2
 ---
 

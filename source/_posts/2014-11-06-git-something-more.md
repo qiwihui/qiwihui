@@ -2,7 +2,7 @@
 layout: post
 title: A small summary, just git something more
 description: some small git tips
-category: ProgramThinking
+category: 编程
 tags: git
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Tag cloud in Matlab
 description: A 3d tag in Matlab language.
-category: mathtalking
+category: 数学
 tags: matlab, tagcloud
 ---
 

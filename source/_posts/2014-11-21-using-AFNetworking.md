@@ -2,7 +2,7 @@
 layout: post
 title: 在Swift中使用AFNetworking框架
 description: 在Swift中使用AFNetworking框架
-category: ProgramThinking
+category: 编程
 commentIssueId: 6
 tags: swift, AFNetworking
 ---

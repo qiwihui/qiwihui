@@ -2,7 +2,7 @@
 layout: post
 title: 树莓派启动时自动连接wifi
 description: 树莓派启动时自动连接wifi
-category: ProgramThinking
+category: 编程
 tags: Raspberry Pi, wifi
 ---
 

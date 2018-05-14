@@ -2,7 +2,7 @@
 layout: post
 title: 没有智能手机的第一天
 description: Without smart phones, what life will be?
-category: herelife
+category: 生活
 tags: smartphones, plan
 ---
 

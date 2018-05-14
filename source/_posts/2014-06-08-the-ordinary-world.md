@@ -2,7 +2,7 @@
 layout: post
 title: 《平凡的世界》与平凡的世界
 description: The Ordinary world is one of Lu Yao s representative.
-category: herelife
+category: 生活
 tags: books
 ---
 

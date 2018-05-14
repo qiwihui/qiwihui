@@ -2,7 +2,7 @@
 layout: post
 title: One problem at Haidian Book City
 description: One amazing problem at Haidian Book City, about look-and-say sequence 
-category: mathtalking
+category: 数学
 tags: look-and-say, Conway
 ---
 
@@ -93,9 +93,8 @@ The fouth column in the table says what other
     n<sup>th</sup> member in the sequence, then L<ins>n+1</ins>/L<ins>n</ins> to
       a limitation when n to infinity. It is 1.303577269... , which we call it
       as **Conway Constant**.
-
 <p>
-    <table style="margin-right: auto; white-space: nowrap; width: auto;">
+  <table style="margin-right: auto; white-space: nowrap; width: auto;">
       <tbody>
         <tr>
           <th>No.</th>
@@ -672,4 +671,3 @@ Those 92 subsequence is so basic that is constructs every member in the look-and
 That is perfect from the begining to the end. Many thanks to the problem
     maker, and the screenwriters, also every
     excellent actors in Breaking Bad.
-

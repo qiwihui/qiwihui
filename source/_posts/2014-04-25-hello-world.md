@@ -2,7 +2,7 @@
 layout: post
 title: Hello World! The first of everything
 description: First hello world post.
-category: programthinking
+category: 编程
 tags: helloworld, python
 ---
 

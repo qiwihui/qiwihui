@@ -2,7 +2,7 @@
 layout: post
 title: 翻译 - 9个值得知道的cURL的用法
 description: 9 uses or cURL worth knowing 
-category: ProgramThinking
+category: 编程
 tags: cURL, HTTP, httpkit.com
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Seek, think then speak
 description: How we deal with daily issues.
-category: herelife
+category: 生活
 tags: seek, think, speak
 ---
 

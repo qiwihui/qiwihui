@@ -2,7 +2,7 @@
 layout: post
 title: 使用 Git Hooks 实现项目自动部署
 description: Deploy projects with Git Hooks between local repository and remote repository on remote machines
-category: ProgramThinking
+category: 编程
 tags: git, git hooks, deploy
 ---
 

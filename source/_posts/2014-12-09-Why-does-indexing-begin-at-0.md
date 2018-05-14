@@ -2,7 +2,7 @@
 layout: post
 title: 翻译 - 为什么python中索引从0开始
 description: 为什么python中索引从0开始
-category: Translate
+category: 编程
 commentIssueId: 7
 tags: python, indexing
 ---
