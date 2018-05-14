@@ -8,7 +8,7 @@ subtitle: Don't be evil or greedy.
 description: Don't be evil or greedy.
 author: qiwihui
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -79,6 +79,10 @@ feed:
   content: true
 ## Themes: https://hexo.io/themes/
 theme: maupassant
+theme_config:
+  disqus: qiwihui
+  google_analytics: UA-46660488-3
+  links:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
