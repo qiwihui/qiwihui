@@ -21,7 +21,7 @@ $ hexo generate --deploy --debug
 You can reach me by dropping me a mail or open a PR against this project. Anyway, a tweet is welcome.
 
 * Email: qiwihui@qiwihui.com
-* Twitter: @upchaos
+* Twitter: @real_qiwihui
 * Ingress: @qiwihui
 
 ### License
