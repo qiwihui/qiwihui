@@ -3,7 +3,7 @@ layout: post
 title: 一个关于数学概率的问题
 description: 一个关于数学概率的问题
 category: 数学
-tags: [概率, 三门]
+tags: [概率, 三门问题]
 ---
 
 ### 题目--百万英雄
