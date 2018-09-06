@@ -2,7 +2,7 @@
 layout: post
 title: 用Homebrew 安装 v2ray 以及 Homebrew-cask 安装 V2RayX
 description: v2ray和v2rayx安装
-category: 编程
+category: 技术
 tags: 翻墙
 ---
 

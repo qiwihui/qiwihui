@@ -2,7 +2,7 @@
 layout: post
 title: A small summary, just git something more
 description: some small git tips
-category: 编程
+category: 技术
 tags: Git
 ---
 

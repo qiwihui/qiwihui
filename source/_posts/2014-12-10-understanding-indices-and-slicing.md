@@ -2,7 +2,7 @@
 layout: post
 title: 翻译 - 理解python索引和切片
 description: Python索引和切片
-category: 编程
+category: 技术
 commentIssueId: 8
 tags: Python
 ---

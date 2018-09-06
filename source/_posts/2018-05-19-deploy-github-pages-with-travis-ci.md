@@ -2,7 +2,7 @@
 layout: post
 title: 使用 Travis CI 自动更新博客
 description: Travis CI 自动检测代码变化，拉取，编译博客并部署到 GitHub Pages。
-category: Hacking
+category: 技术
 tags: [Github, Travis CI, Hexo]
 ---
 

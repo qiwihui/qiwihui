@@ -2,7 +2,7 @@
 layout: post
 title: 在VirtualBox安装Arch Liux初步指南
 description: VirtualBox安装Arch Liux指南
-category: 编程
+category: 技术
 tags: [Arch linux, Virtualbox]
 ---
 

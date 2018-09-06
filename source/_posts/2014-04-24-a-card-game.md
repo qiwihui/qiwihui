@@ -2,7 +2,7 @@
 layout: post
 title: A quite simple card game implemented in C language 
 description: A small card game.
-category: 编程
+category: 技术
 tags: C
 ---
 

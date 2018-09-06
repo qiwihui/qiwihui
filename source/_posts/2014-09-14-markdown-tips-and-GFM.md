@@ -2,7 +2,7 @@
 layout: post
 title: Some markdown tips and Github Flavored Markdown
 description: Markdown tips and github flavored markdown
-category: 编程
+category: 技术
 tags: Markdown
 ---
 

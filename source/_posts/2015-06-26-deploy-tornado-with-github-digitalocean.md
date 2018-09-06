@@ -2,7 +2,7 @@
 layout: post
 title: 使用Nginx，supervisor在DigitalOcean中部署tornado项目
 description: Deploy a tornado projects in production using github, DigitalOcean with nginx and supervisor 
-category: 编程
+category: 技术
 tags: [Tornado, DigitalOcean, Nginx]
 ---
 

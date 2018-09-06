@@ -2,7 +2,7 @@
 layout: post
 title: 玩微信跳一跳小游戏的姿势
 description: 玩微信跳一跳小游戏的一些姿势
-category: 编程
+category: 技术
 tags: Wechat
 ---
 
