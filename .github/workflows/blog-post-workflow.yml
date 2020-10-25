@@ -1,6 +1,7 @@
 name: Latest blog post workflow
 on:
   workflow_dispatch:
+  repository_dispatch:
     types: [update_profile]
 jobs:
   update-readme-with-blog:
