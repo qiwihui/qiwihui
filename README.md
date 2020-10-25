@@ -27,6 +27,6 @@ I make software and websites for a living.
     <img alt="Tensorflow" src="https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
 </p>
 
-## Blog posts
+## Latest blogs
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
