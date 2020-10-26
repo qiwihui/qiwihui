@@ -8,6 +8,11 @@ jobs:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
+      - name: Wait 30 secs for qiwihui.com to be readey if triggerred by repository_dispatch
+        if: github.event_name == 'repository_dispatch'
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '30s'
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
