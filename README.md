@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [编码面试学习手册（Coding Interview University）](https://qiwihui.com/qiwihui-blog-109/)
 - [用 Rust Actix-web 写一个 Todo 应用（四）── 测试](https://qiwihui.com/qiwihui-blog-108/)
 - [用 Rust Actix-web 写一个 Todo 应用（三）── migrations 和错误处理](https://qiwihui.com/qiwihui-blog-107/)
 - [用 Rust Actix-web 写一个 Todo 应用（二）── 请求获取和日志记录](https://qiwihui.com/qiwihui-blog-106/)
 - [用 Rust Actix-web 写一个 Todo 应用（一）── Hello world 和 REST 接口](https://qiwihui.com/qiwihui-blog-105/)
-- [Shadowsocks 和 V2ray 共用443端口](https://qiwihui.com/qiwihui-blog-104/)
 <!-- BLOG-POST-LIST:END -->
