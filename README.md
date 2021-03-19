@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [01. List — Python 进阶](https://qiwihui.com/qiwihui-blog-118/)
 - [Python 函数变量类型注释会导致用 Cython 编译后执行与直接执行结果不一致](https://qiwihui.com/qiwihui-blog-117/)
 - [项目：文章转博客 Podcastx](https://qiwihui.com/qiwihui-blog-115/)
 - [Google codelabs 模板](https://qiwihui.com/qiwihui-blog-112/)
 - [使用 Python 集成 GitHub App 和 GitHub Check API，构建持续集成服务](https://qiwihui.com/qiwihui-blog-111/)
-- [编码面试学习手册（Coding Interview University）](https://qiwihui.com/qiwihui-blog-109/)
 <!-- BLOG-POST-LIST:END -->
