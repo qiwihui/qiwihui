@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [04. 集合 — Python 进阶](https://qiwihui.com/qiwihui-blog-121/)
 - [03. 字典 — Python 进阶](https://qiwihui.com/qiwihui-blog-120/)
 - [02. Tuple — Python 进阶](https://qiwihui.com/qiwihui-blog-119/)
 - [01. List — Python 进阶](https://qiwihui.com/qiwihui-blog-118/)
 - [Python 函数变量类型注释会导致用 Cython 编译后执行与直接执行结果不一致](https://qiwihui.com/qiwihui-blog-117/)
-- [项目：文章转博客 Podcastx](https://qiwihui.com/qiwihui-blog-115/)
 <!-- BLOG-POST-LIST:END -->
