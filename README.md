@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [06. collections — Python 进阶](https://qiwihui.com/qiwihui-blog-123/)
 - [05. 字符串 — Python 进阶](https://qiwihui.com/qiwihui-blog-122/)
 - [04. 集合 — Python 进阶](https://qiwihui.com/qiwihui-blog-121/)
 - [03. 字典 — Python 进阶](https://qiwihui.com/qiwihui-blog-120/)
 - [02. Tuple — Python 进阶](https://qiwihui.com/qiwihui-blog-119/)
-- [01. List — Python 进阶](https://qiwihui.com/qiwihui-blog-118/)
 <!-- BLOG-POST-LIST:END -->
