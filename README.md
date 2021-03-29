@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [19. 星号操作符 — Python 进阶](https://qiwihui.com/qiwihui-blog-130/)
+- [18. 函数参数 — Python 进阶](https://qiwihui.com/qiwihui-blog-129/)
 - [14. 生成器 — Python 进阶](https://qiwihui.com/qiwihui-blog-128/)
 - [13. 装饰器 — Python 进阶](https://qiwihui.com/qiwihui-blog-127/)
 - [09. 异常和错误 — Python 进阶](https://qiwihui.com/qiwihui-blog-126/)
-- [08. Lambda 函数 — Python 进阶](https://qiwihui.com/qiwihui-blog-125/)
-- [07. Itertools — Python 进阶](https://qiwihui.com/qiwihui-blog-124/)
 <!-- BLOG-POST-LIST:END -->
