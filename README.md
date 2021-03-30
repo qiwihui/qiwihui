@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [17. 多进程 — Python 进阶](https://qiwihui.com/qiwihui-blog-135/)
 - [16. 多线程 — Python 进阶](https://qiwihui.com/qiwihui-blog-134/)
 - [15. 多线程和多进程 — Python 进阶](https://qiwihui.com/qiwihui-blog-133/)
 - [21. 上下文管理器 — Python 进阶](https://qiwihui.com/qiwihui-blog-132/)
 - [20. 浅拷贝和深拷贝 — Python 进阶](https://qiwihui.com/qiwihui-blog-131/)
-- [19. 星号操作符 — Python 进阶](https://qiwihui.com/qiwihui-blog-130/)
 <!-- BLOG-POST-LIST:END -->
