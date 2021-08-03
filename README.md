@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
-- [12. 随机数 — Python 进阶](https://qiwihui.com/qiwihui-blog-139/)
-- [11. JSON — Python 进阶](https://qiwihui.com/qiwihui-blog-138/)
-- [10. 日志记录 — Python 进阶](https://qiwihui.com/qiwihui-blog-137/)
-- [17. 多进程 — Python 进阶](https://qiwihui.com/qiwihui-blog-135/)
-- [16. 多线程 — Python 进阶](https://qiwihui.com/qiwihui-blog-134/)
+- [七月小结（2021.07）](https://qiwihui.com/qiwihui-blog-145/)
+- [六月小结（2021.06）](https://qiwihui.com/qiwihui-blog-144/)
+- [chore(deps): bump set-getter from 0.1.0 to 0.1.1](https://qiwihui.com/qiwihui-blog-142/)
+- [chore(deps): bump ua-parser-js from 0.7.22 to 0.7.28](https://qiwihui.com/qiwihui-blog-141/)
+- [chore(deps): bump underscore from 1.11.0 to 1.13.1](https://qiwihui.com/qiwihui-blog-140/)
 <!-- BLOG-POST-LIST:END -->
