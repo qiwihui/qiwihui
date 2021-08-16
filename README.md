@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [CSS 基础──样式篇](https://qiwihui.com/qiwihui-blog-147/)
 - [七月小结（2021.07）](https://qiwihui.com/qiwihui-blog-145/)
 - [六月小结（2021.06）](https://qiwihui.com/qiwihui-blog-144/)
 - [《数据密集型应用的设计》读书笔记──第一章：可靠性，可扩展性，可维护性](https://qiwihui.com/qiwihui-blog-143/)
-- [chore(deps): bump ua-parser-js from 0.7.22 to 0.7.28](https://qiwihui.com/qiwihui-blog-141/)
-- [chore(deps): bump underscore from 1.11.0 to 1.13.1](https://qiwihui.com/qiwihui-blog-140/)
+- [12. 随机数 — Python 进阶](https://qiwihui.com/qiwihui-blog-139/)
 <!-- BLOG-POST-LIST:END -->
