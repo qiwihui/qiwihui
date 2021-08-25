@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [CPython Internals 笔记 ── Python 语言和语法](https://qiwihui.com/qiwihui-blog-150/)
 - [CPython Internals 笔记 ── 编译 Python](https://qiwihui.com/qiwihui-blog-149/)
 - [CPython Internals 笔记 ── 介绍、开发环境设置](https://qiwihui.com/qiwihui-blog-148/)
 - [CSS 基础──样式篇](https://qiwihui.com/qiwihui-blog-147/)
 - [七月小结（2021.07）](https://qiwihui.com/qiwihui-blog-145/)
-- [六月小结（2021.06）](https://qiwihui.com/qiwihui-blog-144/)
 <!-- BLOG-POST-LIST:END -->
