@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [SVG NFT 全面实践 ── scaffold-eth loogies-svg-nft 项目完整指南](https://qiwihui.com/qiwihui-blog-153/)
 - [Crypto Coven 加密女巫 NFT 合约解读](https://qiwihui.com/qiwihui-blog-152/)
 - [使用 Merkle 树做 NFT 白名单验证](https://qiwihui.com/qiwihui-blog-151/)
 - [CPython Internals 笔记 ── Python 语言和语法](https://qiwihui.com/qiwihui-blog-150/)
 - [CPython Internals 笔记 ── 编译 Python](https://qiwihui.com/qiwihui-blog-149/)
-- [CPython Internals 笔记 ── 介绍、开发环境设置](https://qiwihui.com/qiwihui-blog-148/)
 <!-- BLOG-POST-LIST:END -->
