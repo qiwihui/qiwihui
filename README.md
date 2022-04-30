@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [Across 代币发布提案 v2](https://qiwihui.com/qiwihui-blog-160/)
+- [chore&lpar;deps&rpar;: bump moment from 2.29.1 to 2.29.2](https://qiwihui.com/qiwihui-blog-159/)
 - [Across 跨链桥合约解析](https://qiwihui.com/qiwihui-blog-158/)
 - [CS251 - final 2021 - 问题 4](https://qiwihui.com/qiwihui-blog-157/)
 - [CS251 - final 2021 - 问题 3](https://qiwihui.com/qiwihui-blog-156/)
-- [如何创建一个代币承销商 dApp](https://qiwihui.com/qiwihui-blog-155/)
-- [解释 Crypto Coven 合约的两个 bug](https://qiwihui.com/qiwihui-blog-154/)
 <!-- BLOG-POST-LIST:END -->
