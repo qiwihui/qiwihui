@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
+- [Sui 公链研究整理](https://qiwihui.com/qiwihui-blog-162/)
+- [chore&lpar;deps&rpar;: bump moment from 2.29.1 to 2.29.4](https://qiwihui.com/qiwihui-blog-161/)
 - [Across 代币发布提案 v2](https://qiwihui.com/qiwihui-blog-160/)
-- [chore&lpar;deps&rpar;: bump moment from 2.29.1 to 2.29.2](https://qiwihui.com/qiwihui-blog-159/)
 - [Across 跨链桥合约解析](https://qiwihui.com/qiwihui-blog-158/)
 - [CS251 - final 2021 - 问题 4](https://qiwihui.com/qiwihui-blog-157/)
-- [CS251 - final 2021 - 问题 3](https://qiwihui.com/qiwihui-blog-156/)
 <!-- BLOG-POST-LIST:END -->
