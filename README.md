@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
-- [Uniswap v3 无常损失分析](https://qiwihui.com/qiwihui-blog-165/)
-- [Tornado Cash 基本原理](https://qiwihui.com/qiwihui-blog-164/)
-- [Sui 公链研究整理](https://qiwihui.com/qiwihui-blog-162/)
-- [Across 代币发布提案 v2](https://qiwihui.com/qiwihui-blog-160/)
-- [Across 跨链桥合约解析](https://qiwihui.com/qiwihui-blog-158/)
+- [Sui 类狼羊游戏项目开发实践](https://qiwihui.com/qiwihui-blog-171/)
+- [chore&lpar;deps&rpar;: bump ua-parser-js from 0.7.22 to 0.7.33](https://qiwihui.com/qiwihui-blog-170/)
+- [chore&lpar;deps&rpar;: bump decode-uri-component from 0.2.0 to 0.2.2](https://qiwihui.com/qiwihui-blog-169/)
+- [chore&lpar;deps&rpar;: bump engine.io and browser-sync](https://qiwihui.com/qiwihui-blog-168/)
+- [chore&lpar;deps&rpar;: bump minimatch from 3.0.4 to 3.1.2](https://qiwihui.com/qiwihui-blog-167/)
 <!-- BLOG-POST-LIST:END -->
