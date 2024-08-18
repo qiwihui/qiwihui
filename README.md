@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
-- [Sui 数据类型讲解](https://qiwihui.com/qiwihui-blog-172/)
-- [Sui 类狼羊游戏项目开发实践](https://qiwihui.com/qiwihui-blog-171/)
-- [Uniswap v3 无常损失分析](https://qiwihui.com/qiwihui-blog-165/)
-- [Tornado Cash 基本原理](https://qiwihui.com/qiwihui-blog-164/)
-- [Sui 公链研究整理](https://qiwihui.com/qiwihui-blog-162/)
+- [Tornado Cash 代码实践系列 | Tornado Cash in practice](https://qiwihui.com/qiwihui-blog-178/)
+- [写一个 pump.fun 智能合约，创建以太坊上的Meme发售平台](https://qiwihui.com/qiwihui-blog-177/)
+- [Babylon 协议脚本模拟 | Babylon script simulation](https://qiwihui.com/qiwihui-blog-176/)
+- [Verkle Trie 从 0 到 1](https://qiwihui.com/qiwihui-blog-175/)
+- [Babylon 质押协议](https://qiwihui.com/qiwihui-blog-174/)
 <!-- BLOG-POST-LIST:END -->
