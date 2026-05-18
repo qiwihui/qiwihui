@@ -29,9 +29,9 @@ I make software and websites for a living.
 
 ## Latest blogs
 <!-- BLOG-POST-LIST:START -->
-- [175. Verkle Trie 从 0 到 1](https://qiwihui.com/blogs/qiwihui-blog-175.html)
-- [178. Tornado Cash 代码实践系列 | Tornado Cash in practice](https://qiwihui.com/blogs/qiwihui-blog-178.html)
-- [177. 写一个 pump.fun 智能合约，创建以太坊上的Meme发售平台](https://qiwihui.com/blogs/qiwihui-blog-177.html)
-- [176. Babylon 协议脚本模拟 | Babylon script simulation](https://qiwihui.com/blogs/qiwihui-blog-176.html)
-- [174. Babylon 质押协议](https://qiwihui.com/blogs/qiwihui-blog-174.html)
+- [rsETH 攻击事件完整时间线](https://qiwihui.com/blogs/qiwihui-blog-195.html)
+- [alt.fun 平台机制全面分析报告](https://qiwihui.com/blogs/qiwihui-blog-187.html)
+- [从 0 搭建 OpenClaw Agent（Node 安装 + ChatGPT 配置 + 实战）](https://qiwihui.com/blogs/qiwihui-blog-184.html)
+- [Tornado Cash 代码实践系列 | Tornado Cash in practice](https://qiwihui.com/blogs/qiwihui-blog-178.html)
+- [写一个 pump.fun 智能合约，创建以太坊上的Meme发售平台](https://qiwihui.com/blogs/qiwihui-blog-177.html)
 <!-- BLOG-POST-LIST:END -->
